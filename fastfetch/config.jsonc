@@ -32,7 +32,8 @@
         {
             "type": "wm",
             "key": "   WM",
-            "keyColor": "magenta"
+            "keyColor": "magenta",
+            "format": "SwayFX (Wayland)"
         },
         {
             "type": "terminal",
