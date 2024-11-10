@@ -1,0 +1,10 @@
+{
+  "keyMappings": "unmapAll\n\n# Custom\nmap k scrollUp\nmap j scrollDown\nmap gg scrollToTop\nmap G scrollToBottom\nmap gi focusInput\n\nmap f LinkHints.activateMode\nmap H goBack\nmap L goForward\nmap R reload\n\nmap t createTab\nmap A removeTab\n\nmap a restoreTab\nmap T duplicateTab\nmap h previousTab\nmap l nextTab\n\nmap / enterFindMode\nmap v enterVisualMode\nmap n performFind\nmap N performBackwardsFind\nmap yy copyCurrentUrl\n\nmap o Vomnibar.activate\nmap b Vomnibar.activateBookmarks\n\n# map ? showHelp",
+  "settingsVersion": "2.1.2",
+  "exclusionRules": [
+    {
+      "passKeys": "",
+      "pattern": "https?://docs.google.com/*"
+    }
+  ]
+}

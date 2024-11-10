@@ -1,0 +1,314 @@
+{
+  "main": {
+    "id": "19d612fd72d1319d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ebc0a2845876ca0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d61a284f7f8cc9bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Remote/CS/GIT.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GIT"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "99881c286b023571",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b7bc9c394dfcc1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b32afb4c6f54e98b",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Remote/Vault.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": " file: Sent",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711680
+                      }
+                    },
+                    {
+                      "query": "file: Internship",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711680
+                      }
+                    },
+                    {
+                      "query": "file: Rejected",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711680
+                      }
+                    },
+                    {
+                      "query": "file: Advanced",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711680
+                      }
+                    },
+                    {
+                      "query": "file: Offer",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711680
+                      }
+                    },
+                    {
+                      "query": "file: Jobs",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711680
+                      }
+                    },
+                    {
+                      "query": "file: Interviews",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711680
+                      }
+                    },
+                    {
+                      "query": "file: Reflections",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711680
+                      }
+                    }
+                  ],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -3,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5663980185453326,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Vault"
+            }
+          },
+          {
+            "id": "cb3c4064d110ff6e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f434e58cdcd96e04",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "90c90dcd578e5896",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 305
+  },
+  "right": {
+    "id": "7150b9da9bbc5b03",
+    "type": "split",
+    "children": [
+      {
+        "id": "7eda2fda789e7678",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "018180af55d7c602",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8d50df69ba435c99",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "a6b5177db5f71d12",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "7b0c7d88b227c938",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 343,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:Open today's daily note": true,
+      "graph:Open graph view": true,
+      "workspaces:Manage workspace layouts": true,
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "d61a284f7f8cc9bd",
+  "lastOpenFiles": [
+    "Remote/Sway.md",
+    "Remote/Internship/wayfair - Software Engineering Intern - Summer 2025.md",
+    "Remote/Vault.md",
+    "Life/Degree Planner.md",
+    "Life/JEANS.md",
+    "Remote/Life/Behavioral Interview Prep.md",
+    "Life/Reflections/Code Path Mock Interview w Jonathan.md",
+    "Life/Reflections/Interviews.md",
+    "Life/Reflections/Jobs.md",
+    "Life/Reflections/Pure Mentorship.md",
+    "Life/Reflections/Reflections.md",
+    "Life/Reflections/Walmart Summer 2025 Intern Interview.md",
+    "Life/Reflections/theCoderSchool.md",
+    "Remote/CS/Linux Commands.md",
+    "Remote/CS/Express.js.md",
+    "Remote/CS/Coding Projects.md",
+    "Remote/CS/CMD.md",
+    "Remote/CS/Big O Notation.md",
+    "Remote/LeetCode/Encode And Decode Strings.md",
+    "Internship/testset - tset.md",
+    "Internship/testtest - test.md",
+    "Internship/testtest - test.md",
+    "Remote/Templates/(TEMP) INTERNSHIP.md",
+    "Remote/Internship/EffectStats - SWE.md",
+    "Remote/Internship/Gusto - SWE Summer 25.md",
+    "Remote/LeetCode/Top K Frequent Elements.md",
+    "Remote/LeetCode",
+    "Remote",
+    "Root",
+    "CANVAS/FLOWCHART.canvas",
+    "testfile.md~",
+    "1730921069-CUUY.md~",
+    "Remote/Internship",
+    "Remote/Templates",
+    "Life/Health/Sub Emotions",
+    "Life/Health/Emotions",
+    "Life/Health/Daily Note",
+    "Remote/Assets/Attachments/chart.png",
+    "Remote/Assets/Attachments/Tree-20240607160742056.webp",
+    "Remote/Assets/Attachments/Stack-20240608125528073.webp",
+    "Remote/Assets/Attachments/RESTful APIs-20241004122800356.webp",
+    "Remote/Assets/Attachments/Pasted image 20240803001746.jpg",
+    "Remote/Assets/Attachments/Pasted image 20240608135252.png",
+    "Remote/Assets/Attachments/Legend.png",
+    "Remote/Assets/Attachments/KD17+TB.webp",
+    "Remote/Assets/Attachments/JA+1+TB.webp",
+    "Remote/Assets/Attachments/Heaps-20240608123650007.webp",
+    "Remote/CANVAS/Old Canvas.canvas",
+    "Remote/CANVAS/LEETCODE.canvas",
+    "Remote/CANVAS/Hoop Shoes.canvas",
+    "Remote/CANVAS/To Do.canvas",
+    "Remote/CANVAS/Git.canvas"
+  ]
+}

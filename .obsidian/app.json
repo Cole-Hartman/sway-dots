@@ -1,0 +1,13 @@
+{
+  "vimMode": true,
+  "alwaysUpdateLinks": true,
+  "trashOption": "system",
+  "attachmentFolderPath": "Remote/Assets/Attachments",
+  "userIgnoreFilters": [
+    "Remote/Templates/"
+  ],
+  "defaultViewMode": "preview",
+  "readableLineLength": false,
+  "showInlineTitle": false,
+  "showRibbon": false
+}

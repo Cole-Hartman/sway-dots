@@ -1,0 +1,26 @@
+/* STYLING FOR DIVIDER */
+.hr.cm-line hr {
+  /* opacity: 1 !important; */
+  border: none;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    rgb(100, 100, 100),
+    rgba(128, 128, 128, 0.5),
+    rgba(128, 128, 128, 0)
+  );
+}
+.markdown-preview-view hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    rgb(100, 100, 100),
+    rgba(128, 128, 128, 0.5),
+    rgba(128, 128, 128, 0)
+  );
+}
+
+.table-view-table td:nth-child(1) {
+  min-width: 600px;
+}

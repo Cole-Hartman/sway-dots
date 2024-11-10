@@ -1,0 +1,18 @@
+{
+  "accentColor": "",
+  "cssTheme": "AnuPpuccin",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "Cole-Images",
+    "hr",
+    "extended-colorschemes",
+    "custom-background",
+    "obsidian",
+    "floating-search-bar"
+  ],
+  "nativeMenus": false,
+  "showViewHeader": true
+}
