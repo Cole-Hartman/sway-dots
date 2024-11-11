@@ -4,7 +4,7 @@
     "height": 30,
     "modules-left": ["clock"],
     "modules-center": ["sway/workspaces", "sway/mode", "custom/media"],
-    "modules-right": ["pulseaudio", "network", "backlight", "battery", "tray"],
+    "modules-right": ["wireplumber", "network", "battery", "backlight", "tray"],
     
     "sway/workspaces": {
         "disable-scroll": true,
@@ -16,11 +16,10 @@
     },
     "clock": {
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format": "{:%I:%M %p  %b %d}",  // 12-hour time with AM/PM, abbreviated month
+        "format": "  {:%I:%M %p  %b %d}",
     },
     "backlight": {
-        "format": "{percent}% {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
+        "format": "{percent} 󱩎 ",
     },
     "battery": {
         "states": {
@@ -28,36 +27,38 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
+        "format": "{capacity} {icon}",
+        "format-charging": "{capacity} 󰂄",
+        "format-plugged": "{capacity} 󰂄",
         "format-alt": "{time} {icon}",
-        "format-icons": ["", "", "", "", ""]
+	"interval": 1,
+        "format-icons": ["󰁻", "󰁼", "󰁾", "󰂀", "󰁹"]
     },
     "network": {
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-wifi": "{icon} ",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰤮 ",
+        "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
+        "tooltip": true,
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "{ipaddr}/{cidr}",
+        "tooltip-format-disconnected": "Disconnected",
+        "max-length": 30
     },
-    "pulseaudio": {
-        "format": "{volume}% 🔊",
-        "format-bluetooth": "{volume}% 🔊",
-        "format-bluetooth-muted": "x 🔈",
-        "format-muted": " {format_source}",
-        "format-source": "{volume}% 🔊",
-        "format-source-muted": "x 🔈",
+    "wireplumber": {
+        "format": "{icon} {volume}",
+        "format-bluetooth": "{icon} {volume}",
+        "format-muted": " ",
         "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
+            "headphone": "",
+            "headset": "",
+            "default": ["", "", " "]
         },
-        "on-click": "pavucontrol"
+        "scroll-step": 5.0,
+	"max-volume": 100, 
+        "on-click": "pavucontrol",
+        "on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "tooltip": true,
+        "tooltip-format": "{desc}"
     }
 }

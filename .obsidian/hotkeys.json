@@ -131,13 +131,5 @@
   "editor:open-link-in-new-window": [],
   "editor:open-link-in-new-split": [],
   "templater-obsidian:insert-templater": [],
-  "templater-obsidian:replace-in-file-templater": [],
-  "editor:toggle-code": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "C"
-    }
-  ]
+  "templater-obsidian:replace-in-file-templater": []
 }

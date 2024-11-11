@@ -71,7 +71,7 @@ window#waybar {
 #temperature,
 #backlight,
 #network,
-#pulseaudio,
+#wireplumber,
 #custom-media,
 #tray,
 #mode,
@@ -93,8 +93,8 @@ window#waybar {
 }
 
 #battery.charging {
+	background: #282a36;
 	color: #ffffff;
-	background-color: #26A65B;
 }
 
 @keyframes blink {
@@ -127,20 +127,20 @@ window#waybar {
 }
 
 #network.disconnected {
-	background-color: #f53c3c;
+	background: rgba(40, 42, 54, 0.5);
 	border-radius: 26px;
 	transition: none;
 }
 
-#pulseaudio {
+#wireplumber {
 	border-radius: 26px;
 	background: #282a36;
 	transition: none;
 }
 
-#pulseaudio.muted {
+#wirepluber.muted {
 	border-radius: 26px;
-	background: #282a36;
+	background: rgba(40, 42, 54, 0.5);
 	transition: none;
 }
 
