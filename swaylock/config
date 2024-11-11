@@ -1,0 +1,40 @@
+# Authentication
+indicator-caps-lock
+show-failed-attempts
+
+# Appearance
+screenshots
+clock
+effect-blur=12x5
+effect-vignette=0.8:0.8
+fade-in=0.5
+grace=2
+
+# Clock
+timestr=%I:%M
+datestr=%a, %d %b
+
+# Colors
+indicator-radius=200
+indicator-thickness=20
+inside-color=00000000
+line-color=00000000
+ring-color=ffffff22
+text-color=ffffffff
+text-clear-color=ffffffff
+text-caps-lock-color=ffffffff
+text-ver-color=ffffffff
+text-wrong-color=ffffffff
+key-hl-color=0066ffaa
+bs-hl-color=0066ffaa
+caps-lock-bs-hl-color=0066ffaa
+caps-lock-key-hl-color=0066ffaa
+ring-clear-color=ffffff22
+ring-caps-lock-color=ffffff22
+ring-ver-color=ffffff22
+ring-wrong-color=ff0000aa
+inside-clear-color=00000000
+inside-caps-lock-color=00000000
+inside-ver-color=00000000
+inside-wrong-color=00000000
+separator-color=00000000

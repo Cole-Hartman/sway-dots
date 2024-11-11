@@ -1,0 +1,165 @@
+* {
+	border: none;
+	font-family: "JetBrainsMono Nerd Font";
+	font-size: 14px;
+	min-height: 30px;
+}
+
+window#waybar {
+	background-color: transparent;
+	border-bottom: transparent;
+	color: #ffffff;
+	transition-property: background-color;
+	transition-duration: .5s;
+}
+
+#window {
+	margin-top: 8px;
+	margin-left: 10px;
+	margin-bottom: 0;
+	border-radius: 26px;
+	background: #282a36;
+	transition: none;
+	padding: 0 10px;
+}
+
+#workspaces {
+	margin-top: 8px;
+	margin-bottom: 0;
+	border-radius: 26px;
+	background: #282a36;
+	transition: none;
+}
+
+
+#workspaces button {
+	transition: none;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 16px;
+	padding: 5px 10px;
+}
+
+#workspaces button:hover {
+	background: transparent;
+	box-shadow: inherit;
+	border-bottom: 3px solid #ffffff;
+}
+
+#workspaces button.focused {
+	background-color: #64727D;
+	border-radius: 26px;
+}
+
+#workspaces button.urgent {
+	background-color: #eb4d4b;
+}
+
+#mode {
+	background-color: rgb(47, 53, 59);
+	border-bottom: 3px solid #ffffff;
+	margin-top: 8px;
+	margin-left: 12px;
+	margin-bottom: 0;
+	border-radius: 5px;
+	background: #282a36;
+	transition: none;
+}
+
+#clock,
+#battery,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor {
+	margin-top: 8px;
+	margin-left: 12px;
+	margin-bottom: 0;
+	padding: 0 10px;
+	color: #ffffff;
+}
+
+#clock {
+	background-color: #64727D;
+}
+
+#battery {
+	background-color: #ffffff;
+	color: #ffffff;
+}
+
+#battery.charging {
+	color: #ffffff;
+	background-color: #26A65B;
+}
+
+@keyframes blink {
+	to {
+		background-color: #ffffff;
+		color: #000000;
+	}
+}
+
+#battery.critical:not(.charging) {
+	background-color: #f53c3c;
+	color: #ffffff;
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#backlight {
+	border-radius: 26px;
+	background: #282a36;
+	transition: none;
+}
+
+#network {
+	border-radius: 26px;
+	background: #282a36;
+	transition: none;
+}
+
+#network.disconnected {
+	background-color: #f53c3c;
+	border-radius: 26px;
+	transition: none;
+}
+
+#pulseaudio {
+	border-radius: 26px;
+	background: #282a36;
+	transition: none;
+}
+
+#pulseaudio.muted {
+	border-radius: 26px;
+	background: #282a36;
+	transition: none;
+}
+
+#battery {
+	border-radius: 26px;
+	background: #282a36;
+	transition: none;
+}
+
+#clock {
+	border-radius: 26px;
+	background: #282a36;
+	transition: none;
+}
+
+#tray {
+	border-radius: 26px;
+	margin-right: 10px;
+	background: #282a36;
+	background-color: #282a36;
+	transition: none;
+}

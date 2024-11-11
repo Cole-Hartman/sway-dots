@@ -9,5 +9,6 @@
   "defaultViewMode": "preview",
   "readableLineLength": false,
   "showInlineTitle": false,
-  "showRibbon": false
+  "showRibbon": false,
+  "spellcheck": false
 }

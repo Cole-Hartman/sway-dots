@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "386e95cc546de2db",
+        "id": "e5db82bae09a4b3d",
         "type": "tabs",
         "children": [
           {
@@ -40,7 +40,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Remote/Vault.md",
+                "file": "Remote/Sway.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -125,7 +125,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Vault"
+              "title": "Graph of Sway"
             }
           },
           {
@@ -167,12 +167,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 305
+    "width": 305,
+    "collapsed": true
   },
   "right": {
     "id": "7150b9da9bbc5b03",
@@ -258,8 +258,8 @@
   },
   "active": "4e81d59b111369db",
   "lastOpenFiles": [
-    "Remote/CS/GIT.md",
     "Remote/Sway.md",
+    "Remote/CS/GIT.md",
     "Remote/Internship/wayfair - Software Engineering Intern - Summer 2025.md",
     "Remote/Vault.md",
     "Life/Degree Planner.md",
