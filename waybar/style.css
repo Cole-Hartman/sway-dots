@@ -31,7 +31,6 @@ window#waybar {
 	transition: none;
 }
 
-
 #workspaces button {
 	transition: none;
 	background-color: transparent;
@@ -66,34 +65,43 @@ window#waybar {
 	transition: none;
 }
 
-#clock,
-#battery,
-#temperature,
-#backlight,
-#network,
-#wireplumber,
-#custom-media,
-#tray,
-#mode,
-#idle_inhibitor {
+#clock {
 	margin-top: 8px;
-	margin-left: 12px;
+	margin-left: 10px;
 	margin-bottom: 0;
 	padding: 0 10px;
-	color: #ffffff;
-}
-
-#clock {
-	background-color: #64727D;
-}
-
-#battery {
-	background-color: #ffffff;
-	color: #ffffff;
-}
-
-#battery.charging {
+	border-radius: 26px;
 	background: #282a36;
+	transition: none;
+	color: #ffffff;
+}
+
+/* Create the containing box for right modules */
+.modules-right {
+	margin-top: 8px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	padding: 0 5px;
+	border-radius: 26px;
+	background: #282a36;
+}
+
+/* Style individual modules within the container */
+#wireplumber,
+#network,
+#battery,
+#backlight,
+#tray {
+	margin: 4px;
+	padding: 0 10px;
+	color: #ffffff;
+	background: #3b3f4c;
+	/* Even lighter than #353846 */
+	border-radius: 26px;
+}
+
+/* Battery states */
+#battery.charging {
 	color: #ffffff;
 }
 
@@ -114,52 +122,12 @@ window#waybar {
 	animation-direction: alternate;
 }
 
-#backlight {
-	border-radius: 26px;
-	background: #282a36;
-	transition: none;
-}
-
-#network {
-	border-radius: 26px;
-	background: #282a36;
-	transition: none;
-}
-
+/* Network states */
 #network.disconnected {
 	background: rgba(40, 42, 54, 0.5);
-	border-radius: 26px;
-	transition: none;
 }
 
-#wireplumber {
-	border-radius: 26px;
-	background: #282a36;
-	transition: none;
-}
-
-#wirepluber.muted {
-	border-radius: 26px;
+/* Audio states */
+#wireplumber.muted {
 	background: rgba(40, 42, 54, 0.5);
-	transition: none;
-}
-
-#battery {
-	border-radius: 26px;
-	background: #282a36;
-	transition: none;
-}
-
-#clock {
-	border-radius: 26px;
-	background: #282a36;
-	transition: none;
-}
-
-#tray {
-	border-radius: 26px;
-	margin-right: 10px;
-	background: #282a36;
-	background-color: #282a36;
-	transition: none;
 }

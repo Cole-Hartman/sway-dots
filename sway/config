@@ -19,13 +19,29 @@ exec mako
 exec_always --no-startup-id "pkill waybar; waybar"
 exec --no-startup-id nm-applet --indicator
 
-gaps inner 5
-gaps outer 3
-corner_radius 10
+### eye candy ###
+smart_borders off
+gaps inner 7
+gaps outer 5
+
+default_border pixel 3
+corner_radius 5
+
 shadows enable
-shadow_blur_radius 20
+shadows_on_csd enable
+shadow_blur_radius 15
+shadow_color #00000060
+shadow_inactive_color #00000040
+shadow_offset 4 4
+
 blur enable
-blur_radius 5
+blur passes 2
+blur_radius 3
+###
+
+client.focused          #0088cc #0088cc #ffffff #00aad4 #0088cc
+client.unfocused       #2e3440 #2e3440 #888888 #282c34 #2e3440
+client.urgent          #cc3333 #cc3333 #ffffff #cc3333 #cc3333
 
 
 ### Output configuration
@@ -37,13 +53,6 @@ output * bg ~/dots/pictures/beach.jpg fill
 # Monitors
 output eDP-1 position 0,0
 output HDMI-A-2 position 1920,0 mode 1920x1080@119.982Hz
-
-# Tab bar
-client.focused          #00000088 #00000088 #ffffffff #00000088 #00000088
-client.focused_inactive #00000088 #00000077 #ffffffff #00000088 #00000077
-client.unfocused        #00000088 #00000088 #888888dd #00000088 #00000088
-client.urgent           #2f343a88 #90000088 #ffffffff #90000088 #90000088
-client.placeholder      #00000088 #00000088 #ffffffff #00000088 #00000088
 
 # Example configuration:
 #
