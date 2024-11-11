@@ -1,16 +1,49 @@
-default-timeout=5000
-layer=top
+# Mako config file (~/.config/mako/config)
+
+# General styling
+font=JetBrainsMono Nerd Font 11
+background-color=#282a36
+text-color=#ffffff
 width=300
 height=100
+margin=8,8,8
+padding=15
+border-size=2
+border-color=#3b3f4c
+border-radius=15
+progress-color=over #64727D
 
+# Default settings
+default-timeout=5000
+layer=top
+
+# Define different background/border colors based on urgency
 [urgency=low]
+background-color=#282a36
+border-color=#3b3f4c
 default-timeout=3000
 
 [urgency=normal]
+background-color=#282a36
+border-color=#3b3f4c
 default-timeout=5000
 
 [urgency=high]
+background-color=#cc3333
+border-color=#ff4444
 default-timeout=0
 
+# App specific settings
 [app-name=NetworkManager]
 default-timeout=3000
+
+# Positioning
+anchor=top-right
+layer=overlay
+
+# Icons
+icon-path=/usr/share/icons/Papirus
+max-icon-size=70
+
+# Format
+format=<b>%s</b>\n%b
