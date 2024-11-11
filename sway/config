@@ -19,6 +19,7 @@ exec mako
 exec_always --no-startup-id "pkill waybar; waybar"
 exec --no-startup-id nm-applet --indicator
 
+
 ### eye candy ###
 smart_borders off
 gaps inner 7
@@ -111,7 +112,14 @@ output HDMI-A-2 position 1920,0 mode 1920x1080@119.982Hz
     # Logout menu
     # bindsym $mod+BackSpace exec wlogout --layout ~/.config/wlogout/layout --css ~/.config/wlogout/style.css --protocol layer-shell
     bindsym $mod+BackSpace exec wlogout --layout ~/.config/wlogout/layout 
-#
+
+    # Screenshot an area (saves to Screenshots folder in Pictures)
+    # bindsym $mod+Ctrl+BackSpace exec grim -g "$(slurp)" ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png
+    bindsym $mod+Ctrl+BackSpace exec grim -g "$(slurp)" - | tee ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png | wl-copy
+
+    # Color picker (copies hex color to clipboard)
+    bindsym $mod+Ctrl+c exec grim -g "$(slurp -p)" -t ppm - | convert - txt: | tail -n 1 | awk '{print $3}' | wl-copy
+
 # Moving around:
 #
     # Move your focus around
@@ -259,10 +267,5 @@ exec export ELECTRON_OZONE_PLATFORM_HINT=wayland
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 exec systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 
-# Theme settings
-exec_always {
-    gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
-    gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-}
 
 include /etc/sway/config.d/*
