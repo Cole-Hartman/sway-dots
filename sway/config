@@ -110,7 +110,6 @@ output HDMI-A-2 position 1920,0 mode 1920x1080@119.982Hz
     bindsym $mod+Escape exec swaylock
 
     # Logout menu
-    # bindsym $mod+BackSpace exec wlogout --layout ~/.config/wlogout/layout --css ~/.config/wlogout/style.css --protocol layer-shell
     bindsym $mod+BackSpace exec wlogout --layout ~/.config/wlogout/layout 
 
     # Screenshot an area (saves to Screenshots folder in Pictures)
