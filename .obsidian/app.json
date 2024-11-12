@@ -6,7 +6,7 @@
   "userIgnoreFilters": [
     "Remote/Templates/"
   ],
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "readableLineLength": false,
   "showInlineTitle": false,
   "showRibbon": false,

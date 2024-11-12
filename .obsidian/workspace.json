@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e5db82bae09a4b3d",
+        "id": "9934ba514f059a86",
         "type": "tabs",
         "children": [
           {
-            "id": "4e81d59b111369db",
+            "id": "884f825d76869060",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Remote/Sway.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Sway"
+              "title": "New tab"
             }
           }
         ]
@@ -40,7 +36,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Remote/Sway.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -125,7 +120,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Sway"
+              "title": "Graph view"
             }
           },
           {
@@ -171,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305,
-    "collapsed": true
+    "width": 305
   },
   "right": {
     "id": "7150b9da9bbc5b03",
@@ -256,8 +250,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4e81d59b111369db",
+  "active": "884f825d76869060",
   "lastOpenFiles": [
+    "Remote/LeetCode/238. Product of Array Except Self.md",
+    "Remote/CS/Algorithms/ALG.md",
+    "Remote/LeetCode 1/238. Product of Array Except Self.md",
     "Remote/Sway.md",
     "Remote/CS/GIT.md",
     "Remote/Internship/wayfair - Software Engineering Intern - Summer 2025.md",
@@ -281,9 +278,6 @@
     "Internship/testset - tset.md",
     "Internship/testtest - test.md",
     "Internship/testtest - test.md",
-    "Remote/Templates/(TEMP) INTERNSHIP.md",
-    "Remote/Internship/EffectStats - SWE.md",
-    "Remote/Internship/Gusto - SWE Summer 25.md",
     "Remote/LeetCode",
     "Remote",
     "Root",
