@@ -1,10 +1,16 @@
 {
-  "keyMappings": "unmapAll\n\n# Custom\nmap k scrollUp\nmap j scrollDown\nmap gg scrollToTop\nmap G scrollToBottom\nmap gi focusInput\n\nmap f LinkHints.activateMode\nmap H goBack\nmap L goForward\nmap R reload\n\nmap t createTab\nmap A removeTab\n\nmap a restoreTab\nmap T duplicateTab\nmap h previousTab\nmap l nextTab\n\nmap / enterFindMode\nmap v enterVisualMode\nmap n performFind\nmap N performBackwardsFind\nmap yy copyCurrentUrl\n\nmap o Vomnibar.activate\nmap b Vomnibar.activateBookmarks\n\n# map ? showHelp",
+  "keyMappings": "unmapAll\n\n# FIREFOX NATIVE (no dead ends, more responsive)\n# ctrl + t | new tab\n# ctrl + w | close tab\n# ctrl + n | new window\n# ctrl + b | bookmarks\n# alt + left  | go back\n# alt + right | go forward\n\n# VIMIUM\nmap k scrollUp\nmap j scrollDown\nmap gg scrollToTop\nmap G scrollToBottom\nmap gi focusInput\n\nmap f LinkHints.activateMode\nmap R reload\n\nmap w restoreTab\nmap T duplicateTab\nmap h previousTab\nmap l nextTab\n\nmap / enterFindMode\nmap v enterVisualMode\nmap n performFind\nmap N performBackwardsFind\nmap yy copyCurrentUrl\n\nmap o Vomnibar.activate\nmap b Vomnibar.activateBookmarks\n\n# map ? showHelp",
+  "grabBackFocus": true,
+  "searchEngines": "y: https://www.youtube.com/results?search_query=%s Youtube\ngm: https://www.google.com/maps?q=%s Google maps",
   "settingsVersion": "2.1.2",
   "exclusionRules": [
     {
       "passKeys": "",
       "pattern": "https?://docs.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://leetcode.com/*"
     }
   ]
 }
