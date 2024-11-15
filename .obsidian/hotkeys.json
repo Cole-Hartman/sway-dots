@@ -1,12 +1,4 @@
 {
-  "editor:toggle-fold": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "Tab"
-    }
-  ],
   "app:go-forward": [
     {
       "modifiers": [
@@ -40,7 +32,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "W"
+      "key": "Q"
     }
   ],
   "workspace:close-window": [],
@@ -50,14 +42,6 @@
         "Mod"
       ],
       "key": "R"
-    }
-  ],
-  "editor:follow-link": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Enter"
     }
   ],
   "command-palette:open": [
@@ -73,7 +57,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "Q"
+      "key": "W"
     }
   ],
   "file-explorer:new-file": [],
@@ -96,14 +80,6 @@
         "Mod"
       ],
       "key": "N"
-    }
-  ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Tab"
     }
   ],
   "app:open-vault": [
@@ -131,5 +107,29 @@
   "editor:open-link-in-new-window": [],
   "editor:open-link-in-new-split": [],
   "templater-obsidian:insert-templater": [],
-  "templater-obsidian:replace-in-file-templater": []
+  "templater-obsidian:replace-in-file-templater": [],
+  "editor:follow-link": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ]
 }

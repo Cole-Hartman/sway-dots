@@ -1,11 +1,33 @@
-# Read `man 5 sway` for a complete reference.
+# ███████╗██╗    ██╗ █████╗ ██╗   ██╗     ██████╗ ██████╗ ███╗   ██╗███████╗
+# ██╔════╝██║    ██║██╔══██╗╚██╗ ██╔╝    ██╔════╝██╔═══██╗████╗  ██║██╔════╝
+# ███████╗██║ █╗ ██║███████║ ╚████╔╝     ██║     ██║   ██║██╔██╗ ██║█████╗  
+# ╚════██║██║███╗██║██╔══██║  ╚██╔╝      ██║     ██║   ██║██║╚██╗██║██╔══╝  
+# ███████║╚███╔███╔╝██║  ██║   ██║       ╚██████╗╚██████╔╝██║ ╚████║██║     
+# ╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝        ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     
+# `man 5 sway` for more
 
-### Environment variables (moved to top for initialization)
+# ▗▖  ▗▖▗▄▄▄▖ ▗▄▄▖ ▗▄▄▖
+# ▐▛▚▞▜▌  █  ▐▌   ▐▌   
+# ▐▌  ▐▌  █   ▝▀▚▖▐▌   
+# ▐▌  ▐▌▗▄█▄▖▗▄▄▞▘▝▚▄▄▖
+
+# Global Variables
+set $mod Mod1
+set $left h
+set $down j
+set $up k
+set $right l
+set $term kitty
+
+# startup
+exec mako
+exec_always --no-startup-id "pkill waybar; waybar"
+exec --no-startup-id nm-applet --indicator
+
+# Environment variables
 exec export XDG_CURRENT_DESKTOP=sway
 exec export XDG_SESSION_TYPE=wayland
 exec export WAYLAND_DISPLAY=wayland-1
-
-# App-specific environment
 exec export QT_QPA_PLATFORM=wayland
 exec export MOZ_ENABLE_WAYLAND=1
 exec export _JAVA_AWT_WM_NONREPARENTING=1
@@ -14,11 +36,8 @@ exec export ELECTRON_OZONE_PLATFORM_HINT=wayland
 
 # XDG portal and system environment
 exec_always {
-    # Import environment
     systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP SWAYSOCK
     dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway SWAYSOCK
-    
-    # Restart portals to ensure they pick up the new environment
     systemctl --user restart xdg-desktop-portal.service
     systemctl --user restart xdg-desktop-portal-wlr.service
 }
@@ -31,25 +50,12 @@ for_window [title="^xwaylandvideobridge$"] {
     move scratchpad
 }
 
-### Variables
-# Logo key. Use Mod1 for Alt.
-set $mod Mod1
-# Home row direction keys, like vim
-set $left h
-set $down j
-set $up k
-set $right l
-# Your preferred terminal emulator
-set $term kitty
+# ▗▖  ▗▖▗▄▄▄▖ ▗▄▄▖▗▖ ▗▖ ▗▄▖ ▗▖
+# ▐▌  ▐▌  █  ▐▌   ▐▌ ▐▌▐▌ ▐▌▐▌
+# ▐▌  ▐▌  █   ▝▀▚▖▐▌ ▐▌▐▛▀▜▌▐▌
+#  ▝▚▞▘ ▗▄█▄▖▗▄▄▞▘▝▚▄▞▘▐▌ ▐▌▐▙▄▄▖
 
-font pango:JetBrainsMono Nerd Font 11
-
-# startup
-exec mako
-exec_always --no-startup-id "pkill waybar; waybar"
-exec --no-startup-id nm-applet --indicator
-
-### eye candy ###
+###### EYE CANDY #####
 smart_borders off
 gaps inner 7
 gaps outer 5
@@ -67,128 +73,127 @@ shadow_offset 4 4
 blur enable
 blur passes 2
 blur_radius 3
-###
 
 client.focused          #0088cc #0088cc #ffffff #00aad4 #0088cc
 client.unfocused       #2e3440 #2e3440 #888888 #282c34 #2e3440
 client.urgent          #cc3333 #cc3333 #ffffff #cc3333 #cc3333
+######################
 
-### Output configuration
+### FONT / SCALING ###
+font pango:JetBrainsMono Nerd Font 14
+
+# GTK and general scaling
+exec_always {
+    gsettings set org.gnome.desktop.interface text-scaling-factor 1.3
+    gsettings set org.gnome.desktop.interface font-scaling-factor 1.3
+    gsettings set org.gnome.desktop.interface font-size 14
+}
+
+# Qt DPI
+exec export QT_FONT_DPI=134
+
+# Cursor size
+exec export XCURSOR_SIZE=28
+######################
+
+# Wallpaper
 output * bg ~/dots/pictures/beach.jpg fill
 
-# Monitors
+# Monitor setup
 output eDP-1 position 0,0
 output HDMI-A-2 position 1920,0 mode 1920x1080@119.982Hz
 
-### Key bindings
-#
-# Basics:
-#
-    # Start a terminal
-    bindsym $mod+Return exec $term
+# ▗▄▄▖ ▗▄▄▄▖▗▖  ▗▖▗▄▄▄  ▗▄▄▖
+# ▐▌ ▐▌  █  ▐▛▚▖▐▌▐▌  █▐▌
+# ▐▛▀▚▖  █  ▐▌ ▝▜▌▐▌  █ ▝▀▚▖
+# ▐▙▄▞▘▗▄█▄▖▐▌  ▐▌▐▙▄▄▀▗▄▄▞▘
 
-    # Kill focused window
-    bindsym $mod+Shift+a kill
+# Start terminal
+bindsym $mod+Return exec $term
 
-    # Start your launcher
-    bindsym $mod+d exec ~/.config/rofi/launchers/type-2/launcher.sh
+# Kill window
+bindsym $mod+Shift+a kill
 
-    # Drag floating windows by holding down $mod and left mouse button.
-    floating_modifier $mod normal
+# Start launcher
+bindsym $mod+d exec ~/.config/rofi/launchers/type-2/launcher.sh
 
-    # Reload the configuration file
-    bindsym $mod+Shift+c reload
+# Start firefox
+bindsym $mod+Shift+F exec firefox
 
-    # Exit sway
-    bindsym $mod+Shift+b exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+# Reload config
+bindsym $mod+Shift+c reload
 
-    # Lock screen
-    bindsym $mod+Escape exec swaylock
+# Exit sway
+bindsym $mod+Shift+b exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 
-    # Logout menu
-    bindsym $mod+BackSpace exec wlogout --layout ~/.config/wlogout/layout 
+# Sway Lock
+bindsym $mod+Escape exec swaylock
 
-    # Screenshot an area (saves to Screenshots folder in Pictures)
-    bindsym $mod+Ctrl+BackSpace exec grim -g "$(slurp)" - | tee ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png | wl-copy
+# Wlogout
+bindsym $mod+BackSpace exec wlogout --layout ~/.config/wlogout/layout 
 
-    # Color picker (copies hex color to clipboard)
-    bindsym $mod+Ctrl+c exec grim -g "$(slurp -p)" -t ppm - | convert - txt: | tail -n 1 | awk '{print $3}' | wl-copy
+# Screenshot an area, save photo and copy to clipboard 
+bindsym $mod+Ctrl+BackSpace exec grim -g "$(slurp)" - | tee ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png | wl-copy
 
-# Moving around:
-    # Move your focus around
-    bindsym $mod+h focus left
-    bindsym $mod+j focus down
-    bindsym $mod+k focus up
-    bindsym $mod+l focus right
+# Color picker, copies hex color
+bindsym $mod+Ctrl+c exec grim -g "$(slurp -p)" -t ppm - | convert - txt: | tail -n 1 | awk '{print $3}' | wl-copy
 
-    # Move the focused window
-    bindsym $mod+Shift+h move left
-    bindsym $mod+Shift+j move down
-    bindsym $mod+Shift+k move up
-    bindsym $mod+Shift+l move right
+# Move focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
-# Workspaces:
-    # Switch to workspace
-    bindsym $mod+q workspace number 1
-    bindsym $mod+w workspace number 2
-    bindsym $mod+e workspace number 3
-    bindsym $mod+r workspace number 4
-    bindsym $mod+t workspace number 5
-    bindsym $mod+y workspace number 6
-    bindsym $mod+u workspace number 7
-    bindsym $mod+i workspace number 8
-    bindsym $mod+o workspace number 9
-    bindsym $mod+p workspace number 10
+# Move focused window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
-    # Move focused container to workspace
-    bindsym $mod+Shift+q move container to workspace number 1
-    bindsym $mod+Shift+w move container to workspace number 2
-    bindsym $mod+Shift+e move container to workspace number 3
-    bindsym $mod+Shift+r move container to workspace number 4
-    bindsym $mod+Shift+t move container to workspace number 5
-    bindsym $mod+Shift+y move container to workspace number 6
-    bindsym $mod+Shift+u move container to workspace number 7
-    bindsym $mod+Shift+i move container to workspace number 8
-    bindsym $mod+Shift+o move container to workspace number 9
-    bindsym $mod+Shift+p move container to workspace number 10
+# Switch to workspace
+bindsym $mod+q workspace number 1
+bindsym $mod+w workspace number 2
+bindsym $mod+e workspace number 3
+bindsym $mod+r workspace number 4
+bindsym $mod+t workspace number 5
+bindsym $mod+y workspace number 6
+bindsym $mod+u workspace number 7
+bindsym $mod+i workspace number 8
+bindsym $mod+o workspace number 9
+bindsym $mod+p workspace number 10
 
-# Layout stuff:
-    # Switch the current container between different layout styles
-    bindsym $mod+c layout stacking
-    bindsym $mod+x layout tabbed
-    bindsym $mod+v layout toggle split
+# Move focused window to workspace
+bindsym $mod+Shift+q move container to workspace number 1
+bindsym $mod+Shift+w move container to workspace number 2
+bindsym $mod+Shift+e move container to workspace number 3
+bindsym $mod+Shift+r move container to workspace number 4
+bindsym $mod+Shift+t move container to workspace number 5
+bindsym $mod+Shift+y move container to workspace number 6
+bindsym $mod+Shift+u move container to workspace number 7
+bindsym $mod+Shift+i move container to workspace number 8
+bindsym $mod+Shift+o move container to workspace number 9
+bindsym $mod+Shift+p move container to workspace number 10
 
-    # Make the current focus fullscreen
-    bindsym $mod+f fullscreen
+# Switch layout
+bindsym $mod+c layout stacking
+bindsym $mod+x layout tabbed
+bindsym $mod+v layout toggle split
 
-    # Toggle the current focus between tiling and floating mode
-    bindsym $mod+Shift+space floating toggle
+# Fullscreen window
+bindsym $mod+f fullscreen
 
-    # Swap focus between the tiling area and the floating area
-    bindsym $mod+space focus mode_toggle
+# Send window to scratchpad
+bindsym $mod+Shift+s move scratchpad
 
-    # Move focus to the parent container
-    bindsym $mod+a focus parent
+# Show the next scratchpad window or hide the focused scratchpad window.
+bindsym $mod+s scratchpad show
 
-# Scratchpad:
-    # Move the currently focused window to the scratchpad
-    bindsym $mod+Shift+s move scratchpad
-
-    # Show the next scratchpad window or hide the focused scratchpad window.
-    bindsym $mod+s scratchpad show
-
-# Resizing containers:
+# Resize window
 mode "resize" {
     bindsym $left resize shrink width 10px
     bindsym $down resize grow height 10px
     bindsym $up resize shrink height 10px
     bindsym $right resize grow width 10px
-
-    # Ditto, with arrow keys
-    bindsym Left resize shrink width 10px
-    bindsym Down resize grow height 10px
-    bindsym Up resize shrink height 10px
-    bindsym Right resize grow width 10px
 
     # Return to default mode
     bindsym Return mode "default"
@@ -196,24 +201,31 @@ mode "resize" {
 }
 bindsym $mod+g mode "resize"
 
-# Utilities:
-    # Volume via PulseAudio
-    bindsym --locked XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
-    bindsym --locked XF86AudioRaiseVolume exec wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+
-    bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
-    bindsym --locked XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+# ▗▖ ▗▖▗▄▄▄▖▗▄▄▄▖▗▖   ▗▄▄▄▖▗▄▄▄▖▗▄▄▄▖▗▄▄▄▖ ▗▄▄▖
+# ▐▌ ▐▌  █    █  ▐▌     █    █    █  ▐▌   ▐▌   
+# ▐▌ ▐▌  █    █  ▐▌     █    █    █  ▐▛▀▀▘ ▝▀▚▖
+# ▝▚▄▞▘  █  ▗▄█▄▖▐▙▄▄▖▗▄█▄▖  █  ▗▄█▄▖▐▙▄▄▖▗▄▄▞▘
 
-    # Brightness via brightnessctl
-    bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
-    bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
-    
-    # Screenshot via grim
-    bindsym Print exec grim
-    
-    # Media control via playerctl
-    bindsym --locked XF86AudioPlay exec playerctl play-pause
-    bindsym --locked XF86AudioPause exec playerctl play-pause
-    bindsym --locked XF86AudioNext exec playerctl next
-    bindsym --locked XF86AudioPrev exec playerctl previous
+# Volume via PulseAudio
+bindsym --locked XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym --locked XF86AudioRaiseVolume exec wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+
+bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym --locked XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+
+# Media control via playerctl
+bindsym --locked XF86AudioPlay exec playerctl play-pause
+bindsym --locked XF86AudioPause exec playerctl play-pause
+bindsym --locked XF86AudioNext exec playerctl next
+bindsym --locked XF86AudioPrev exec playerctl previous
+
+# Brightness via brightnessctl
+bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
+
+# Screenshot via grim
+bindsym Print exec grim
+
+
+
 
 include /etc/sway/config.d/*
