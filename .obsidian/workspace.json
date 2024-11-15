@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ad5557e5642fb0bf",
+        "id": "b8491be0e370a3e7",
         "type": "tabs",
         "children": [
           {
-            "id": "3fe9147b1af91669",
+            "id": "397c5649edff8f89",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Remote/Sway.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Sway"
             }
           }
         ]
@@ -36,6 +40,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Remote/Sway.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -120,7 +125,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Sway"
             }
           },
           {
@@ -250,8 +255,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3fe9147b1af91669",
+  "active": "397c5649edff8f89",
   "lastOpenFiles": [
+    "Remote/Sway.md",
+    "Remote/LeetCode/Longest Consecutive Sequence.md",
     "Remote/CS/Algorithms/ALG.md",
     "Remote/Internship 1/SAIC - SWE.md",
     "Internship/KODIF - SWE.md",
@@ -260,7 +267,6 @@
     "Remote/Class/229.md",
     "Remote/LeetCode/Remove Duplicates From Sorted Array.md",
     "Remote/LeetCode/How to win at LeetCode.md",
-    "Remote/LeetCode/Longest Consecutive Sequence.md",
     "Remote/LeetCode/LeetCode.md",
     "Remote/LeetCode/424. Longest Repeating Character Replacement.md",
     "Remote/Internship 1/Netflix - Software Engineer Intern - Summer 2025, Los Gatos, California, United States of America.md",
@@ -279,7 +285,6 @@
     "Remote/Internship 1/Lyft - Software Engineer Intern - Mobile Android - Summer 2025, SF.md",
     "Remote/Internship/TRC - GIS Software Engineering Intern.md",
     "Remote/Internship/Ge Vernova - Data Science & Software development Internship.md",
-    "Remote/Internship/LightBox - SWE.md",
     "Remote/Internship",
     "Remote/LeetCode",
     "Remote",

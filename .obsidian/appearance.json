@@ -4,7 +4,7 @@
   "theme": "obsidian",
   "interfaceFontFamily": "Inter",
   "textFontFamily": "",
-  "baseFontSize": 17,
+  "baseFontSize": 16,
   "enabledCssSnippets": [
     "Cole-Images",
     "hr",

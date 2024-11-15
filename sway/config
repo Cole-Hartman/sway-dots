@@ -1,9 +1,9 @@
 # ███████╗██╗    ██╗ █████╗ ██╗   ██╗     ██████╗ ██████╗ ███╗   ██╗███████╗
 # ██╔════╝██║    ██║██╔══██╗╚██╗ ██╔╝    ██╔════╝██╔═══██╗████╗  ██║██╔════╝
-# ███████╗██║ █╗ ██║███████║ ╚████╔╝     ██║     ██║   ██║██╔██╗ ██║█████╗  
-# ╚════██║██║███╗██║██╔══██║  ╚██╔╝      ██║     ██║   ██║██║╚██╗██║██╔══╝  
-# ███████║╚███╔███╔╝██║  ██║   ██║       ╚██████╗╚██████╔╝██║ ╚████║██║     
-# ╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝        ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     
+# ███████╗██║ █╗ ██║███████║ ╚████╔╝     ██║     ██║   ██║██╔██╗ ██║█████╗
+# ╚════██║██║███╗██║██╔══██║  ╚██╔╝      ██║     ██║   ██║██║╚██╗██║██╔══╝
+# ███████║╚███╔███╔╝██║  ██║   ██║       ╚██████╗╚██████╔╝██║ ╚████║██║
+# ╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝        ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝
 # `man 5 sway` for more
 
 # ▗▖  ▗▖▗▄▄▄▖ ▗▄▄▖ ▗▄▄▖
@@ -79,7 +79,7 @@ client.unfocused       #2e3440 #2e3440 #888888 #282c34 #2e3440
 client.urgent          #cc3333 #cc3333 #ffffff #cc3333 #cc3333
 ######################
 
-### FONT / SCALING ###
+### FONT & SCALING ###
 font pango:JetBrainsMono Nerd Font 14
 
 # GTK and general scaling
@@ -94,6 +94,9 @@ exec export QT_FONT_DPI=134
 
 # Cursor size
 exec export XCURSOR_SIZE=28
+
+# For specific electron apps, check ~/.local/share/applications/
+
 ######################
 
 # Wallpaper
@@ -132,8 +135,8 @@ bindsym $mod+Escape exec swaylock
 # Wlogout
 bindsym $mod+BackSpace exec wlogout --layout ~/.config/wlogout/layout 
 
-# Screenshot an area, save photo and copy to clipboard 
-bindsym $mod+Ctrl+BackSpace exec grim -g "$(slurp)" - | tee ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png | wl-copy
+# Use rofi to launch a screenshot menu, use grim to screenshot 
+bindsym $mod+Ctrl+BackSpace exec ~/.config/rofi/custom/screenshot.sh
 
 # Color picker, copies hex color
 bindsym $mod+Ctrl+c exec grim -g "$(slurp -p)" -t ppm - | convert - txt: | tail -n 1 | awk '{print $3}' | wl-copy
