@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b8491be0e370a3e7",
+        "id": "b89c0651410c3149",
         "type": "tabs",
         "children": [
           {
-            "id": "397c5649edff8f89",
+            "id": "b34f73ecc1a3c0fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Remote/Sway.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Sway"
+              "title": "New tab"
             }
           }
         ]
@@ -40,7 +36,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Remote/Sway.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -125,7 +120,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Sway"
+              "title": "Graph view"
             }
           },
           {
@@ -255,8 +250,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "397c5649edff8f89",
+  "active": "b34f73ecc1a3c0fe",
   "lastOpenFiles": [
+    "Remote/LeetCode/Trapping Rain Water.md",
+    "Remote/LeetCode/Container With Most Water.md",
+    "Remote/LeetCode/11. Container With Most Water.md",
+    "Remote/Class/229.md",
+    "Internship/Rakuten - Intern - Software Engineer, AI User Experience.md",
+    "Remote/LeetCode/3Sum.md",
     "Remote/Sway.md",
     "Remote/LeetCode/Longest Consecutive Sequence.md",
     "Remote/CS/Algorithms/ALG.md",
@@ -264,7 +265,6 @@
     "Internship/KODIF - SWE.md",
     "Internship/Adobe - 2025 Intern SWE.md",
     "Internship",
-    "Remote/Class/229.md",
     "Remote/LeetCode/Remove Duplicates From Sorted Array.md",
     "Remote/LeetCode/How to win at LeetCode.md",
     "Remote/LeetCode/LeetCode.md",
@@ -280,11 +280,6 @@
     "Remote/Internship 1/Gecko Robotics - Field Software Engineer - Intern.md",
     "Remote/Internship 1/Ericsson - Software Developer Intern, Plano, Texas, United States.md",
     "Remote/Internship 1/NetherMind - SWE.md",
-    "Remote/Internship 1/Stryker - Summer 2025 Intern - Software Engineering - California.md",
-    "Remote/Internship 1/Lyft - Software Engineer Intern, Frontend (Summer 2025) San Francisco, CA.md",
-    "Remote/Internship 1/Lyft - Software Engineer Intern - Mobile Android - Summer 2025, SF.md",
-    "Remote/Internship/TRC - GIS Software Engineering Intern.md",
-    "Remote/Internship/Ge Vernova - Data Science & Software development Internship.md",
     "Remote/Internship",
     "Remote/LeetCode",
     "Remote",

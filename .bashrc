@@ -5,13 +5,10 @@
 # ██████╔╝██║  ██║███████║██║  ██║██║  ██║╚██████╗
 # ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
 
-# If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
-
 
 #  ▗▄▖ ▗▖   ▗▄▄▄▖ ▗▄▖  ▗▄▄▖
 # ▐▌ ▐▌▐▌     █  ▐▌ ▐▌▐▌
@@ -64,6 +61,9 @@ bind -m vi-command '"\ew": kill-region'
 bind -m vi-insert '"\C-p": history-search-backward'
 bind -m vi-insert '"\C-n": history-search-forward'
 bind -m vi-insert '"\ew": kill-region'
+
+# Set primary clipboard program
+export CLIPBOARD='wl-copy'
 
 # fzf
 bind '"\C-f":"fzfs\n"'
