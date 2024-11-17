@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b89c0651410c3149",
+        "id": "33a8be8d40d39e91",
         "type": "tabs",
         "children": [
           {
-            "id": "b34f73ecc1a3c0fe",
+            "id": "4a26fba3a6d13dc3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Remote/Class/Linear Algebra.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Linear Algebra"
             }
           }
         ]
@@ -36,6 +40,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Remote/Class/Linear Algebra.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -120,7 +125,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Linear Algebra"
             }
           },
           {
@@ -250,12 +255,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b34f73ecc1a3c0fe",
+  "active": "4a26fba3a6d13dc3",
   "lastOpenFiles": [
+    "Remote/Internship 1/Meta - Meta University - Engineering - Summer 2025.md",
+    "Remote/LeetCode/424. Longest Repeating Character Replacement.md",
+    "Remote/LeetCode/Longest Substring Without Repeating Characters.md",
+    "Internship/FactSet - Software Engineer Intern - Americas Campus (Summer 2025).md",
+    "Internship/Johnson&Johnson - Front End Software Engineering Intern.md",
+    "Internship/Viasat - Frontend - Design Systems.md",
+    "Remote/Internship 1/Johnson & Johnson.md",
     "Remote/LeetCode/Trapping Rain Water.md",
     "Remote/LeetCode/Container With Most Water.md",
     "Remote/LeetCode/11. Container With Most Water.md",
-    "Remote/Class/229.md",
+    "Remote/Class/Linear Algebra.md",
     "Internship/Rakuten - Intern - Software Engineer, AI User Experience.md",
     "Remote/LeetCode/3Sum.md",
     "Remote/Sway.md",
@@ -268,18 +280,11 @@
     "Remote/LeetCode/Remove Duplicates From Sorted Array.md",
     "Remote/LeetCode/How to win at LeetCode.md",
     "Remote/LeetCode/LeetCode.md",
-    "Remote/LeetCode/424. Longest Repeating Character Replacement.md",
     "Remote/Internship 1/Netflix - Software Engineer Intern - Summer 2025, Los Gatos, California, United States of America.md",
     "Remote/CS/Algorithms/DFS.md",
     "Remote/LeetCode/94. Binary Tree Inorder Traversal.md",
     "Remote/LeetCode/102. Binary Tree Level Order Traversal.md",
-    "Remote/Internship/Sandia National Labs - Quantum science internship.md",
     "Remote/Class",
-    "[BFS.md",
-    "Remote/Internship 1/IBM - Back End Developer Intern 2025.md",
-    "Remote/Internship 1/Gecko Robotics - Field Software Engineer - Intern.md",
-    "Remote/Internship 1/Ericsson - Software Developer Intern, Plano, Texas, United States.md",
-    "Remote/Internship 1/NetherMind - SWE.md",
     "Remote/Internship",
     "Remote/LeetCode",
     "Remote",

@@ -36,6 +36,7 @@ alias bonsai='cbonsai -l'
 alias fzfs='~/scripts/fzf.sh'
 alias tt='tt -theme nord'
 alias pdf='zathura'
+alias timeshift='sudogui timeshift-gtk'
 
 # ▗▖  ▗▖▗▄▄▄▖ ▗▄▄▖ ▗▄▄▖
 # ▐▛▚▞▜▌  █  ▐▌   ▐▌
