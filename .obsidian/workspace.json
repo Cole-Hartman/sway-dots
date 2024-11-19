@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "33a8be8d40d39e91",
+        "id": "e9ae38d722f704df",
         "type": "tabs",
         "children": [
           {
-            "id": "4a26fba3a6d13dc3",
+            "id": "d9c528f2adfc29fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Remote/Class/Linear Algebra.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Linear Algebra"
+              "title": "New tab"
             }
           }
         ]
@@ -40,7 +36,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Remote/Class/Linear Algebra.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -125,7 +120,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Linear Algebra"
+              "title": "Graph view"
             }
           },
           {
@@ -167,7 +162,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -246,54 +242,55 @@
     "hiddenItems": {
       "daily-notes:Open today's daily note": true,
       "graph:Open graph view": true,
-      "workspaces:Manage workspace layouts": true,
       "switcher:Open quick switcher": true,
       "canvas:Create new canvas": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "terminal:Open terminal": false,
+      "super-duper-audio-recorder:Start/Stop Recording": false
     }
   },
-  "active": "4a26fba3a6d13dc3",
+  "active": "d9c528f2adfc29fd",
   "lastOpenFiles": [
-    "Remote/Internship 1/Meta - Meta University - Engineering - Summer 2025.md",
-    "Remote/LeetCode/424. Longest Repeating Character Replacement.md",
-    "Remote/LeetCode/Longest Substring Without Repeating Characters.md",
-    "Internship/FactSet - Software Engineer Intern - Americas Campus (Summer 2025).md",
-    "Internship/Johnson&Johnson - Front End Software Engineering Intern.md",
-    "Internship/Viasat - Frontend - Design Systems.md",
-    "Remote/Internship 1/Johnson & Johnson.md",
-    "Remote/LeetCode/Trapping Rain Water.md",
-    "Remote/LeetCode/Container With Most Water.md",
-    "Remote/LeetCode/11. Container With Most Water.md",
-    "Remote/Class/Linear Algebra.md",
-    "Internship/Rakuten - Intern - Software Engineer, AI User Experience.md",
-    "Remote/LeetCode/3Sum.md",
-    "Remote/Sway.md",
-    "Remote/LeetCode/Longest Consecutive Sequence.md",
+    "Remote/Vault.md",
+    "Remote/Assets/Recordings/recording-multitrack-2024-11-19T20-48-42-281Z.wav",
+    "Remote/Assets/Attachments/Recording 20241119123833.m4a",
+    "Remote/Assets/Recordings",
+    "Remote/LeetCode/Maximum Sum of Distinct Subarrays with Length K.md",
+    "Remote/CS/Data Structures/DS.md",
     "Remote/CS/Algorithms/ALG.md",
-    "Remote/Internship 1/SAIC - SWE.md",
-    "Internship/KODIF - SWE.md",
-    "Internship/Adobe - 2025 Intern SWE.md",
-    "Internship",
-    "Remote/LeetCode/Remove Duplicates From Sorted Array.md",
-    "Remote/LeetCode/How to win at LeetCode.md",
-    "Remote/LeetCode/LeetCode.md",
-    "Remote/Internship 1/Netflix - Software Engineer Intern - Summer 2025, Los Gatos, California, United States of America.md",
-    "Remote/CS/Algorithms/DFS.md",
-    "Remote/LeetCode/94. Binary Tree Inorder Traversal.md",
-    "Remote/LeetCode/102. Binary Tree Level Order Traversal.md",
-    "Remote/Class",
-    "Remote/Internship",
+    "Remote/CS/Data Structures/Matrix.md",
+    "Remote/CS/Data Structures/Graph.md",
+    "Remote/CS/Data Structures/Set.md",
+    "Remote/CS/Data Structures/Tuples.md",
+    "Remote/Internship/Khan Academy - Software Engineer Intern.md",
+    "Remote/Internship/BILL 1.md",
+    "Remote/Internship/Fidelity - Summer 2025 Undergraduate Internship - Technology.md",
+    "Remote/Internship/BILL.md",
+    "Remote/Internship/Chicago Trading Company - Software Engineer Internship - Summer 2025 - New York.md",
+    "Remote/Internship/IBM - Front End Developer Intern 2025.md",
+    "Remote/Internship/IBM - Back End Developer Intern 2025.md",
+    "Remote/Internship/LightBox - SWE.md",
+    "Remote/Internship/Doordash - Software Engineer, Intern, 2024 & 25.md",
+    "Remote/Internship/CrowdStrike - Software Engineer Intern - Summer 2025 Remote, US, CAN.md",
+    "Remote/Internship/Snapchat - Software Engineer Intern, Summer 2025, Santa Monica, Seattle, Palo Alto.md",
+    "Remote/Internship/Snapchat.md",
+    "Remote/Internship/Pavilion - SWE.md",
+    "Internship/Amazon - 2025 Software Development Engineer Intern - Mobile.md",
+    "Remote/LeetCode/Minimum Window Substring.md",
+    "Remote/Assets/Recordings/recording-multitrack-2024-11-19T21-07-21-549Z.wav",
+    "Remote/Assets/Attachments/Recording 20241119123724.m4a",
+    "Remote/Assets/Attachments",
+    "Remote/Assets",
+    "Remote/Class/Linear Algebra.md",
+    "Remote/CS/Time and Space Complexity.md",
+    "Remote/LeetCode/Permutation in String.md",
     "Remote/LeetCode",
     "Remote",
-    "Root",
+    "Remote/Internship",
     "CANVAS/FLOWCHART.canvas",
-    "testfile.md~",
-    "1730921069-CUUY.md~",
-    "Remote/Internship 1",
-    "Remote/Templates",
     "Remote/Assets/Attachments/chart.png",
     "Remote/Assets/Attachments/Tree-20240607160742056.webp",
     "Remote/Assets/Attachments/Stack-20240608125528073.webp",

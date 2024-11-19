@@ -82,12 +82,12 @@ client.urgent          #cc3333 #cc3333 #ffffff #cc3333 #cc3333
 ######################
 
 ### FONT & SCALING ###
-font pango:JetBrainsMono Nerd Font 14
+font pango:JetBrainsMono Nerd Font 2
 
 # GTK and general scaling
 exec_always {
-    gsettings set org.gnome.desktop.interface text-scaling-factor 1.1
-    gsettings set org.gnome.desktop.interface font-scaling-factor 1.1
+    gsettings set org.gnome.desktop.interface text-scaling-factor 1.2
+    gsettings set org.gnome.desktop.interface font-scaling-factor 1.2
     gsettings set org.gnome.desktop.interface font-size 13
 }
 

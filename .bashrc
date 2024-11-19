@@ -17,12 +17,15 @@ PS1='[\u@\h \W]\$ '
 
 alias la='ls -A'
 alias neob='cd ~/.config/nvim'
-alias ng='cd ~/neorg/'
+alias ob='cd ~/obsidian-vault/'
 alias ..='cd ..'
 alias b='cd'
 alias c='clear'
 
 alias fonts='cd ~/.local/share/fonts/'
+
+alias koff='swaymsg input "1:1:AT_Translated_Set_2_keyboard" events disabled'
+alias kon='swaymsg input "1:1:AT_Translated_Set_2_keyboard" events enabled'
 
 alias t='tmux'
 alias ta='tmux attach -t'
@@ -69,5 +72,12 @@ export CLIPBOARD='wl-copy'
 # fzf
 bind '"\C-f":"fzfs\n"'
 
+# nvm
+source /usr/share/nvm/init-nvm.sh
+
 export PATH="$HOME/.bin:$PATH"
 export PATH="$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
