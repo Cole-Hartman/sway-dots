@@ -17,10 +17,11 @@ PS1='[\u@\h \W]\$ '
 
 alias la='ls -A'
 alias neob='cd ~/.config/nvim'
-alias ob='cd ~/obsidian-vault/'
+alias ob='cd ~/obsidian-vault/Remote'
 alias ..='cd ..'
 alias b='cd'
 alias c='clear'
+alias f='fastfetch'
 
 alias fonts='cd ~/.local/share/fonts/'
 
@@ -34,7 +35,7 @@ alias tka='tmux kill-server'
 alias tk='tmux kill-session -t'
 alias td='tmuxinator todo'
 
-alias matrix='unimatrix -s 92 -c white -a'
+alias m='unimatrix -s 92 -c white -a'
 alias bonsai='cbonsai -l'
 alias fzfs='~/scripts/fzf.sh'
 alias tt='tt -theme nord'
