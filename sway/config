@@ -232,5 +232,4 @@ bindsym Print exec grim
 
 
 
-
 include /etc/sway/config.d/*

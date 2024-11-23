@@ -1,6 +1,6 @@
 #!/bin/bash
 search_directories() {
-    directories=(~/code ~/class ~/dotfiles ~/Downloads ~/Desktop)
+    directories=(~/code ~/class ~/dotfiles ~/Downloads ~/Desktop ~/dots)
     
     selected_dir=$(
         (
