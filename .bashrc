@@ -76,6 +76,16 @@ bind '"\C-f":"fzfs\n"'
 # nvm
 source /usr/share/nvm/init-nvm.sh
 
+# yazi script
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
 export PATH="$HOME/.bin:$PATH"
 export PATH="$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH"
 

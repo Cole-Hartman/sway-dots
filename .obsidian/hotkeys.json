@@ -41,7 +41,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "R"
+      "key": " "
     }
   ],
   "command-palette:open": [
@@ -90,14 +90,6 @@
       "key": "Backspace"
     }
   ],
-  "quick-explorer:browse-vault": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": ";"
-    }
-  ],
   "markdown:add-metadata-property": [],
   "editor:toggle-italics": [],
   "file-explorer:new-file-in-new-pane": [],
@@ -130,6 +122,15 @@
         "Mod"
       ],
       "key": "Tab"
+    }
+  ],
+  "editor:insert-link": [],
+  "quick-explorer:browse-vault": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": ";"
     }
   ]
 }
