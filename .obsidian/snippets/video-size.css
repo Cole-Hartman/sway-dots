@@ -1,0 +1,7 @@
+video {
+  width: 50%;
+}
+
+[ alt~="size"] video {
+  width: 40%;
+}

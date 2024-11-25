@@ -11,7 +11,8 @@
     "extended-colorschemes",
     "custom-background",
     "obsidian",
-    "floating-search-bar"
+    "floating-search-bar",
+    "video-size"
   ],
   "nativeMenus": false,
   "showViewHeader": false
