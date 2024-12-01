@@ -10,5 +10,8 @@
   "readableLineLength": false,
   "showInlineTitle": false,
   "showRibbon": false,
-  "spellcheck": false
+  "spellcheck": false,
+  "showUnsupportedFiles": true,
+  "showLineNumber": false,
+  "rightToLeft": false
 }

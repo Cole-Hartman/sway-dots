@@ -41,7 +41,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": " "
+      "key": ";"
     }
   ],
   "command-palette:open": [
@@ -125,12 +125,12 @@
     }
   ],
   "editor:insert-link": [],
-  "quick-explorer:browse-vault": [
+  "obsidian-shellcommands:shell-command-px7s1bkyu9": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": ";"
+      "key": " "
     }
   ]
 }

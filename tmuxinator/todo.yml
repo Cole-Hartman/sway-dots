@@ -16,6 +16,7 @@ windows:
       panes:
         - nvim cal1.md
         - nvim cal2.md
+        - nvim cal3.md
   - other:  
       layout: even-horizontal
       panes:

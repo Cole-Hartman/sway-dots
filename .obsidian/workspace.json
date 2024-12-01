@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dfbfe55e24059a2f",
+        "id": "db913d6d403fc614",
         "type": "tabs",
         "children": [
           {
-            "id": "d70ef70a759b9108",
+            "id": "c7edc7aa37060718",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Remote/LeetCode/Car Fleet.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Car Fleet"
+              "title": "New tab"
             }
           }
         ]
@@ -40,7 +36,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Remote/LeetCode/Car Fleet.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -125,19 +120,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Car Fleet"
-            }
-          },
-          {
-            "id": "cb3c4064d110ff6e",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Graph view"
             }
           },
           {
@@ -165,6 +148,18 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "dc942d62fad681aa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
         ]
@@ -244,6 +239,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
       "daily-notes:Open today's daily note": true,
       "graph:Open graph view": true,
       "switcher:Open quick switcher": true,
@@ -252,58 +248,59 @@
       "command-palette:Open command palette": true,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "super-duper-audio-recorder:Start/Stop Recording": false
+      "super-duper-audio-recorder:Start/Stop Recording": false,
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "d70ef70a759b9108",
+  "active": "c7edc7aa37060718",
   "lastOpenFiles": [
-    "Remote/LeetCode/Car Fleet.md",
-    "Remote/Assets/Attachments/RPReplay_Final1732522567.mov",
-    "Remote/Sway.md",
-    "Remote/Assets/Attachments/IMG_2871.mov",
+    "Remote/LeetCode/LRU Cache.md",
+    "Remote/Assets/Attachments/LRU Cache-20241201125341761.webp",
+    "Remote/Internship/Amazon - Software Dev Engineer Intern - (Fall) - USA, CA, Cupertino.md",
+    "Remote/Internship/Amazon - 2025 Program Manager - Intern.md",
+    "Remote/Internship/Amazon - Front-End Engineer Internship – 2025 - Seattle.md",
+    "Remote/Internship/Amazon - Software Development Engineer Internship - 2025.md",
+    "Remote/LeetCode/3Sum.md",
+    "Remote/CS/Time and Space Complexity.md",
+    "Remote/LeetCode/Two Sum II.md",
+    "Remote/LeetCode/Two Sum.md",
+    "Remote/LeetCode/LeetCode.md",
+    "Remote/LeetCode/Python Tricks.md",
+    "Remote/LeetCode/LC Templates/LC Templates.md",
+    "Remote/CS/Patterns/PAT.md",
+    "Remote/CS/Algorithms/ALG.md",
+    "Remote/CS/Data Structures/DS.md",
+    "Remote/LeetCode/1. Two Sum.md",
+    "two suj.md",
+    "Remote/LeetCode/167. Two Sum II - Input Array Is Sorted.md",
+    "Remote/LeetCode/Find the Duplicate Number .md",
+    "Remote/Assets/Attachments/Find the Duplicate Number -20241129161403685.webp",
+    "Remote/CS/Algorithms/Floyd's Cycle Detection.md",
+    "Remote/LeetCode/287. Find the Duplicate Number.md",
+    "Remote/LeetCode/Linked List Cycle.md",
+    "Remote/LeetCode/141. Linked List Cycle.md",
+    "Remote/LeetCode/Encode And Decode Strings.md",
+    "Remote/LeetCode/Add Two Numbers.md",
+    "Remote/Assets/Recordings/recording-multitrack-2024-11-29T05-36-03-066Z.wav",
+    "Remote/LeetCode/LC Templates/DfsTree.py",
+    "Remote/LeetCode/LC Templates/dfs.py",
+    "Remote/LeetCode/LC Templates/dfs.py~",
+    "Remote/LeetCode/LC Templates",
+    "Remote/testtest.py",
+    "Remote/testtest.py~",
+    "Remote/Life/test.py",
+    "Remote/test.py",
+    "Remote/test.pt",
     "Remote/Assets/Attachments/IMG_0496.jpeg",
     "Untitled.canvas",
-    "RPReplay_Final1732522567.mp4.md",
     "Remote/Assets/Attachments/23NIKALBRN21CNCHLMNK_White_Black_Photon_Dust.webp",
-    "Untitled.md",
-    "Untitled",
-    "Remote/CS/Data Structures/Set.md",
-    "Remote/Life/Subscriptions.md",
-    "Remote/LeetCode/Python Tricks.md",
-    "Remote/LeetCode/LeetCode.md",
-    "Remote/LeetCode/875. Koko Eating Bananas.md",
-    "Remote/Life/Amy.md",
-    "Remote/CS/Data Structures/DS.md",
-    "Remote/CS/Data Structures/Graph.md",
-    "Remote/Internship/Persona - Software Engineer, Intern (Summer 2025), SF.md",
-    "Remote/Internship/GE Appliances.md",
-    "Remote/Internship/Capitol One - Technology Early Internship Program - Summer 2025 - McLean, VA.md",
-    "Remote/Internship/Capital One.md",
-    "Remote/Internship/TikTok - Software Engineer Intern (TikTok Business Risk Integrated Control) - 2025 Summer (BS MS).md",
-    "Remote/Internship/TikTok 1.md",
-    "Remote/Internship/TikTok.md",
-    "Remote/Internship/Stripe - Software Engineer, Intern.md",
-    "Remote/Internship/NetApp - SWE.md",
-    "Remote/Internship/AppLovin - SWE.md",
-    "Remote/Converge.md",
-    "Remote/LeetCode/Merge Two Sorted Lists.md",
-    "Remote/LeetCode/Sliding Window Maximum.md",
     "Remote/Assets/Attachments/Search a 2D Matrix-20241122192837646.webp",
-    "Remote/CS/Patterns",
-    "Remote/Assets/Recordings/recording-multitrack-2024-11-22T07-11-38-479Z.wav",
-    "Internship",
-    "Remote/Assets/Recordings/recording-multitrack-2024-11-19T20-48-42-281Z.wav",
-    "Remote/Assets/Attachments/Recording 20241119123833.m4a",
-    "Remote/Assets/Recordings",
-    "Remote/Assets/Recordings/recording-multitrack-2024-11-19T21-07-21-549Z.wav",
     "CANVAS/FLOWCHART.canvas",
     "Remote/Assets/Attachments/chart.png",
     "Remote/Assets/Attachments/Tree-20240607160742056.webp",
     "Remote/Assets/Attachments/Stack-20240608125528073.webp",
     "Remote/Assets/Attachments/RESTful APIs-20241004122800356.webp",
     "Remote/Assets/Attachments/Pasted image 20240803001746.jpg",
-    "Remote/Assets/Attachments/Pasted image 20240608135252.png",
-    "Remote/Assets/Attachments/Legend.png",
     "Remote/CANVAS/Old Canvas.canvas",
     "Remote/CANVAS/LEETCODE.canvas",
     "Remote/CANVAS/Hoop Shoes.canvas",

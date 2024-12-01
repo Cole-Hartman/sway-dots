@@ -15,5 +15,5 @@
     "video-size"
   ],
   "nativeMenus": false,
-  "showViewHeader": false
+  "showViewHeader": true
 }
