@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "db913d6d403fc614",
+        "id": "57a5606422c18605",
         "type": "tabs",
         "children": [
           {
-            "id": "c7edc7aa37060718",
+            "id": "491629acde5d5628",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Remote/CS/CPP/CPP.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CPP"
             }
           }
         ]
@@ -36,6 +40,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Remote/CS/CPP/CPP.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -120,7 +125,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of CPP"
             }
           },
           {
@@ -252,45 +257,47 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "c7edc7aa37060718",
+  "active": "491629acde5d5628",
   "lastOpenFiles": [
-    "Remote/LeetCode/LRU Cache.md",
+    "Remote/CS/CPP/Operator Overloading.md",
+    "Remote/CS/CPP/CPP.md",
+    "Remote/Tech Interview/LeetCode/Move Pieces to Obtain a String.md",
+    "Remote/Internship/Zscaler - SWE - Back End.md",
+    "Remote/Internship/Zscaler - SWE - Front End.md",
+    "Remote/CS/CPP/325 Final Notes.md",
+    "Remote/CS/CPP/325 Midterm Notes.md",
+    "Remote/Tech Interview/LeetCode/Python Tricks.md",
+    "Remote/Class/Linear Algebra.md",
+    "Remote/Tech Interview/Data Structures/List.md",
+    "Remote/Tech Interview/SDE Terminology.md",
+    "Remote/Tech Interview/Tech Interview.md",
+    "Remote/Tech Interview/System Design/SysDes.md",
+    "Remote/Tech Interview/SDE Levels.md",
+    "Remote/Tech Interview/Tech Terminology.md",
+    "Remote/Tech Interview/LeetCode/LeetCode.md",
+    "Remote/Templates/(TEMP) INTERNSHIP.md",
+    "Remote/Templates/(TEMP) ALG.md",
+    "Remote/Templates/(TEMP) PAT.md",
+    "Remote/Tech Interview/Time and Space Complexity.md",
+    "Remote/Tech Interview/Patterns/Two Pointers.md",
+    "Remote/Tech Interview/Patterns/Sliding Window.md",
+    "Remote/Tech Interview/Patterns/PAT.md",
+    "Remote/Tech Interview/Patterns/Dynamic Programming.md",
+    "Remote/Tech Interview/Patterns/Backtracking.md",
+    "Remote/Tech Interview/Patterns",
+    "Remote/Templates/(TEMP) DS.md",
+    "Remote/Tech Interview/LeetCode/LC Templates/DfsTree.py",
+    "Remote/Tech Interview/System Design",
+    "Remote/Tech Interview/Data Structures",
+    "Remote/Tech Interview/Algorithms",
+    "Remote/Tech Interview/SysDes",
+    "Remote/Tech Interview/LeetCode/LC Templates/LLReverse.py",
+    "Remote/Tech Interview/LeetCode/LC Templates",
+    "Remote/Tech Interview/LeetCode",
+    "Remote/LeetCode/LC Templates/LLReverse.py",
+    "Remote/Assets/Attachments/CPP-20241202140521175.webp",
     "Remote/Assets/Attachments/LRU Cache-20241201125341761.webp",
-    "Remote/Internship/Amazon - Software Dev Engineer Intern - (Fall) - USA, CA, Cupertino.md",
-    "Remote/Internship/Amazon - 2025 Program Manager - Intern.md",
-    "Remote/Internship/Amazon - Front-End Engineer Internship – 2025 - Seattle.md",
-    "Remote/Internship/Amazon - Software Development Engineer Internship - 2025.md",
-    "Remote/LeetCode/3Sum.md",
-    "Remote/CS/Time and Space Complexity.md",
-    "Remote/LeetCode/Two Sum II.md",
-    "Remote/LeetCode/Two Sum.md",
-    "Remote/LeetCode/LeetCode.md",
-    "Remote/LeetCode/Python Tricks.md",
-    "Remote/LeetCode/LC Templates/LC Templates.md",
-    "Remote/CS/Patterns/PAT.md",
-    "Remote/CS/Algorithms/ALG.md",
-    "Remote/CS/Data Structures/DS.md",
-    "Remote/LeetCode/1. Two Sum.md",
-    "two suj.md",
-    "Remote/LeetCode/167. Two Sum II - Input Array Is Sorted.md",
-    "Remote/LeetCode/Find the Duplicate Number .md",
     "Remote/Assets/Attachments/Find the Duplicate Number -20241129161403685.webp",
-    "Remote/CS/Algorithms/Floyd's Cycle Detection.md",
-    "Remote/LeetCode/287. Find the Duplicate Number.md",
-    "Remote/LeetCode/Linked List Cycle.md",
-    "Remote/LeetCode/141. Linked List Cycle.md",
-    "Remote/LeetCode/Encode And Decode Strings.md",
-    "Remote/LeetCode/Add Two Numbers.md",
-    "Remote/Assets/Recordings/recording-multitrack-2024-11-29T05-36-03-066Z.wav",
-    "Remote/LeetCode/LC Templates/DfsTree.py",
-    "Remote/LeetCode/LC Templates/dfs.py",
-    "Remote/LeetCode/LC Templates/dfs.py~",
-    "Remote/LeetCode/LC Templates",
-    "Remote/testtest.py",
-    "Remote/testtest.py~",
-    "Remote/Life/test.py",
-    "Remote/test.py",
-    "Remote/test.pt",
     "Remote/Assets/Attachments/IMG_0496.jpeg",
     "Untitled.canvas",
     "Remote/Assets/Attachments/23NIKALBRN21CNCHLMNK_White_Black_Photon_Dust.webp",
@@ -300,7 +307,6 @@
     "Remote/Assets/Attachments/Tree-20240607160742056.webp",
     "Remote/Assets/Attachments/Stack-20240608125528073.webp",
     "Remote/Assets/Attachments/RESTful APIs-20241004122800356.webp",
-    "Remote/Assets/Attachments/Pasted image 20240803001746.jpg",
     "Remote/CANVAS/Old Canvas.canvas",
     "Remote/CANVAS/LEETCODE.canvas",
     "Remote/CANVAS/Hoop Shoes.canvas",

@@ -59,8 +59,8 @@ for_window [title="^xwaylandvideobridge$"] {
 
 ###### EYE CANDY #####
 smart_borders off
-gaps inner 7
-gaps outer 5
+gaps inner 5
+gaps outer 0
 
 default_border pixel 3
 corner_radius 5

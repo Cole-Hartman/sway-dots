@@ -3,9 +3,7 @@
   "alwaysUpdateLinks": true,
   "trashOption": "system",
   "attachmentFolderPath": "Remote/Assets/Attachments",
-  "userIgnoreFilters": [
-    "Remote/Templates/"
-  ],
+  "userIgnoreFilters": null,
   "defaultViewMode": "source",
   "readableLineLength": false,
   "showInlineTitle": false,

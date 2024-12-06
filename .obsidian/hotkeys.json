@@ -41,7 +41,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": ";"
+      "key": "A"
     }
   ],
   "command-palette:open": [
@@ -131,6 +131,14 @@
         "Mod"
       ],
       "key": " "
+    }
+  ],
+  "quick-explorer:browse-vault": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": ";"
     }
   ]
 }
