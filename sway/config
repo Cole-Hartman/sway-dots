@@ -230,14 +230,14 @@ bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 # Screenshot via grim
 bindsym Print exec grim
 
-# Basic swayidle configuration
-# swaylock after 5 minutes
-# turn off display after 10 minutes
+# Swayidle configuration
+# swaylock after 10 minutes
+# turn off display after 15 minutes
 # turns display back on when activitiy is detected
 # locks screen before system sleeps
 exec swayidle \
-    timeout 300 'swaylock -f' \
-    timeout 600 'swaymsg "output * dpms off"' \
+    timeout 600 'swaylock -f' \
+    timeout 900 'swaymsg "output * dpms off"' \
     resume 'swaymsg "output * dpms on"' \
     before-sleep 'swaylock -f'
 
