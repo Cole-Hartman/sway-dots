@@ -241,5 +241,6 @@ exec swayidle \
     resume 'swaymsg "output * dpms on"' \
     before-sleep 'swaylock -f'
 
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 
 include /etc/sway/config.d/*

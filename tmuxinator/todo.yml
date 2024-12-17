@@ -4,20 +4,19 @@ name: todo
 root: ~/todo.txt/
 
 windows:
-  - editor:
+  - TODO:
       layout: even-horizontal
       panes:
         - nvim 1.md
         - nvim 2.md
         - nvim 3.md
         - nvim 4.md
-  - split:  
+  - 🗓️:  
       layout: even-horizontal
       panes:
         - nvim cal1.md
         - nvim cal2.md
-        - nvim cal3.md
-  - other:  
+  - MISC:  
       layout: even-horizontal
       panes:
         - nvim 5.md
