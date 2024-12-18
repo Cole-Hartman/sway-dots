@@ -1,7 +1,7 @@
 # /home/cole/.config/tmuxinator/todo.yml
 
 name: todo
-root: ~/todo.txt/
+root: ~/todo-school/
 
 windows:
   - TODO:
