@@ -1,7 +1,7 @@
 # /home/cole/.config/tmuxinator/todo.yml
 
 name: todo-break
-root: ~/todo-break/
+root: ~/dots/tmuxinator/todo-break/
 
 windows:
   - TODO:
