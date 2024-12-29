@@ -25,8 +25,23 @@
   ],
   "app:open-settings": [],
   "editor:delete-paragraph": [],
-  "workspace:next-tab": [],
-  "workspace:previous-tab": [],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
   "workspace:undo-close-pane": [
     {
       "modifiers": [
@@ -41,7 +56,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "A"
+      "key": "'"
     }
   ],
   "command-palette:open": [
@@ -82,14 +97,6 @@
       "key": "N"
     }
   ],
-  "app:open-vault": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Backspace"
-    }
-  ],
   "markdown:add-metadata-property": [],
   "editor:toggle-italics": [],
   "file-explorer:new-file-in-new-pane": [],
@@ -108,22 +115,6 @@
       "key": "Enter"
     }
   ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "Tab"
-    }
-  ],
-  "editor:toggle-fold": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Tab"
-    }
-  ],
   "editor:insert-link": [],
   "obsidian-shellcommands:shell-command-px7s1bkyu9": [
     {
@@ -139,6 +130,55 @@
         "Mod"
       ],
       "key": ";"
+    }
+  ],
+  "oin-gotoheading:gotoheading-next": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "oin-gotoheading:gotoheading-previous": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "oin-gotoheading:gotoheading-switcher": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:fold-all": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Backspace"
     }
   ]
 }

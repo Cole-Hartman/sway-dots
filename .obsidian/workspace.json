@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "35d4068fe3ebc4e0",
+        "id": "eace6cee4f69de4e",
         "type": "tabs",
         "children": [
           {
-            "id": "7084b4d9fb06cea8",
+            "id": "9cd6f6cd5164c349",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Remote/Tech Interview/Mastering the SWE Interview.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Mastering the SWE Interview"
+              "title": "New tab"
             }
           }
         ]
@@ -40,7 +36,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Remote/Tech Interview/Data Structures/DS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -125,7 +120,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of DS"
+              "title": "Graph view"
             }
           },
           {
@@ -258,45 +253,47 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "7084b4d9fb06cea8",
+  "active": "9cd6f6cd5164c349",
   "lastOpenFiles": [
-    "Remote/Assets/Attachments/Mastering the SWE Interview-20241216000133019.webp",
-    "Remote/Tech Interview/GitHub Interview.md",
-    "Remote/Tech Interview/Mastering the SWE Interview.md",
-    "github intern.md",
-    "Remote/Internship/GitHub - SWE.md",
-    "Remote/Tech Interview/Technical Interview.md",
-    "Remote/Tech Interview/Tech Interview.md",
-    "Remote/Tech Interview/Data Structures/DS.md",
-    "Remote/Tech Interview/Data Structures/Heaps.md",
-    "Remote/Tech Interview/Data Structures/Tree.md",
-    "Remote/Tech Interview/Data Structures/Linked List.md",
-    "Remote/CS/Web Server Basics.md",
-    "Remote/CS/RESTful API.md",
-    "Remote/CS/Database.md",
-    "Remote/Tech Interview/GitHub Interview ",
-    "Remote/Tech Interview/Algorithms/ALG.md",
-    "Remote/Tech Interview/Algorithms/BFS.md",
-    "Remote/Tech Interview/Algorithms/DFS.md",
-    "Remote/Tech Interview/LeetCode/LeetCode.md",
-    "Remote/Tech Interview/Data Structures/Set.md",
-    "Remote/Tech Interview/Data Structures/Tuples.md",
-    "Remote/Tech Interview/Data Structures/Priority Queue.md",
-    "Remote/Tech Interview/Data Structures/Queue.md",
-    "Remote/Tech Interview/Data Structures/Binary Search Tree.md",
-    "Remote/Tech Interview/Data Structures/List.md",
-    "Remote/Tech Interview/Data Structures/Dictionary.md",
-    "Remote/Tech Interview/Algorithms/Kadane's Algorithm.md",
-    "Remote/Tech Interview/LeetCode/LC Templates/DfsTree.py",
-    "Remote/Life/Hair",
-    "Remote/Assets/Attachments/Linear Algebra-20241210170637101.webp",
-    "Remote/Tech Interview/Patterns",
-    "Remote/Tech Interview/System Design",
+    "Remote/Life/Hair.md",
+    "Remote/Assets/Attachments/Hair-20241228234932475.webp",
+    "Remote/Interview/Data Structures/Graph.md",
+    "Remote/Interview/Data Structures/DS.md",
+    "Remote/Interview/Data Structures/Matrix.md",
+    "Remote/Tech Interview/Data Structures/Tries.md",
     "Remote/Tech Interview/Data Structures",
-    "Remote/Tech Interview/Algorithms",
-    "Remote/Tech Interview/SysDes",
-    "Remote/Tech Interview/LeetCode/LC Templates/LLReverse.py",
-    "Remote/Tech Interview/LeetCode/LC Templates",
+    "Remote/Tech Interview",
+    "Remote/Interview/Data Structures/Heaps.md",
+    "Remote/Interview/Algorithms/BFS.md",
+    "Remote/Interview/LC Templates/LC Templates.md",
+    "Remote/Interview/Algorithms/LevelOrderTraversal.py",
+    "Remote/Interview/Algorithms/LevelOrderTraversal.py~",
+    "Remote/Interview/LC Templates/DfsTree.py",
+    "Remote/Interview/LC Templates/BfsTree.py",
+    "LevelOrderTraversal.py.md",
+    "Remote/Interview/Algorithms/ALG.md",
+    "Remote/Interview/Time and Space Complexity.md",
+    "Remote/Interview/LC Questions/Add Two Numbers.md",
+    "Remote/Interview/LC Questions/Subtree of Another Tree.md",
+    "Remote/Interview/LC Templates/SameTree.py",
+    "Remote/Interview/LC Templates/SameTree.py~",
+    "Remote/Interview/Algorithms/DFS.md",
+    "Remote/Interview/Data Structures/Tree.md",
+    "Remote/Interview/LC Templates/BfsTree.py~",
+    "Remote/CS/Java Script/Factory Functions and Module Pattern.md",
+    "Remote/Tech Interview/LC Questions/LeetCode.md",
+    "Remote/Interview/LC Questions/Why LeetCode.md",
+    "Remote/Interview/LC Questions/Valid Sudoku.md",
+    "Remote/Interview/LC Questions/Two Sum.md",
+    "Remote/Interview/LC Questions/Two Sum II.md",
+    "Remote/Interview/LC Questions/Trapping Rain Water.md",
+    "Remote/Interview/LC Questions/Top K Frequent Elements.md",
+    "Remote/Interview/LC Questions/Sliding Window Maximum.md",
+    "Remote/Interview/LC Questions/Search a 2D Matrix.md",
+    "Remote/Interview/LC Questions/Same Tree.md",
+    "Remote/Interview/LC Templates/LLReverse.py",
+    "Remote/Assets/Attachments/Mastering the SWE Interview-20241216000133019.webp",
+    "Remote/Assets/Attachments/Linear Algebra-20241210170637101.webp",
     "Remote/Assets/Attachments/CPP-20241202140521175.webp",
     "Remote/Assets/Attachments/LRU Cache-20241201125341761.webp",
     "Remote/Assets/Attachments/Find the Duplicate Number -20241129161403685.webp",
@@ -306,8 +303,6 @@
     "Remote/Assets/Attachments/Search a 2D Matrix-20241122192837646.webp",
     "CANVAS/FLOWCHART.canvas",
     "Remote/Assets/Attachments/chart.png",
-    "Remote/Assets/Attachments/Tree-20240607160742056.webp",
-    "Remote/Assets/Attachments/Stack-20240608125528073.webp",
     "Remote/CANVAS/Old Canvas.canvas",
     "Remote/CANVAS/LEETCODE.canvas",
     "Remote/CANVAS/Hoop Shoes.canvas",
