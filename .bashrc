@@ -17,7 +17,7 @@ PS1='[\u@\h \W]\$ '
 
 alias la='ls -A'
 alias neob='cd ~/.config/nvim'
-alias ob='cd ~/obsidian-vault/Remote'
+alias ob='cd ~/obsidian-vault'
 alias ..='cd ..'
 alias b='cd'
 alias c='clear'
@@ -92,3 +92,6 @@ export PATH="$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Shopify Hydrogen alias to local projects
+alias h2='$(npm prefix -s)/node_modules/.bin/shopify hydrogen'

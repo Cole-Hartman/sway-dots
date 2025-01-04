@@ -102,7 +102,15 @@
   "file-explorer:new-file-in-new-pane": [],
   "editing-toolbar:workplace-fullscreen-focus": [],
   "obsidian-icon-folder:iconize:set-icon-for-file": [],
-  "editor:open-link-in-new-leaf": [],
+  "editor:open-link-in-new-leaf": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
   "editor:open-link-in-new-window": [],
   "editor:open-link-in-new-split": [],
   "templater-obsidian:insert-templater": [],
