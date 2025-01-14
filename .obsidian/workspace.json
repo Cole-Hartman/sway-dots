@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f00fb529a8c5a404",
+        "id": "ac2f2890cd653eb7",
         "type": "tabs",
         "children": [
           {
-            "id": "d4f9e6d74fc9fd40",
+            "id": "51a38310406b24a6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -230,8 +230,19 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "27afc3d0fecdfbcf",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -253,45 +264,45 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "d4f9e6d74fc9fd40",
+  "active": "51a38310406b24a6",
   "lastOpenFiles": [
-    "Remote/Internship/Internships (May 2024 - May 2025).md",
+    "Remote/Interview/Mastering the SWE Interview.md",
+    "Remote/Interview/GitHub Interview.md",
+    "Remote/CS/SWE Terminology.md",
     "Remote/Internship/GitHub - SWE.md",
-    "Remote/Interview/Data Structures/Heaps.md",
+    "Remote/Interview/Interview.md",
+    "Remote/Internship/InterSystems - Summer Internship 2025, Boston, MA.md",
+    "Remote/Templates/(TEMP) LEETCODE.md",
+    "Remote/Interview/Why LeetCode.md",
+    "Remote/Interview/How To LeetCode.md",
+    "Remote/Interview/Time and Space Complexity.md",
+    "Remote/Internship/Pinterest - IT Software Engineering Intern - Remote.md",
+    "Remote/Interview/LC Templates/LC Templates.md",
+    "Remote/Interview/LC Templates/LevelOrderTraversal.py",
+    "Remote/Interview/Algorithms/ALG.md",
     "Remote/Interview/Data Structures/DS.md",
-    "Remote/Interview/SWE Terminology.md",
-    "Remote/Internship/Digital.ai - swe.md",
-    "Remote/Interview/LC Questions/236. Lowest Common Ancestor of a Binary Tree.md",
-    "Remote/Interview/Algorithms/BFS.md",
-    "Remote/Interview/Algorithms/DFS.md",
+    "Remote/Interview/LC Questions/LeetCode.md",
+    "Remote/Interview/System Design/SysDes.md",
+    "Remote/Interview/Python Tricks.md",
+    "Remote/LeetCode/LeetCode.md",
+    "Remote/LeetCode",
+    "Remote/Interview/LeetCode.md",
+    "Remote/Interview/LC Questions/Number of Islands.md",
+    "Remote/Interview/LC Questions/231. Power of Two.md",
+    "Remote/Interview/LC Questions/230. Kth Smallest Element in a BST.md",
+    "Remote/Templates/(TEMP) INTERNSHIP.md",
+    "Remote/Interview/LC Questions/testproblem50.md",
+    "Remote/Interview/Data Structures/Tries.md",
+    "Remote/Interview/LC Questions/Equal Row and Column Pairs.md",
     "Remote/Interview/LC Templates/DfsMatrix.py",
-    "Remote/Tech Interview/LeetCode/Number of Islands.md",
+    "Remote/Interview/Algorithms/LevelOrderTraversal.py",
     "Remote/Interview/LC Templates/DfsMatrix.py~",
     "Remote/Interview/LC Templates/BfsMatrix.py~",
     "Remote/Interview/LC Templates/BfsMatrix.py",
     "Remote/Interview/LC Templates/BfsTree.py",
-    "Remote/Interview/Data Structures/Graph.md",
-    "Remote/Tech Interview/LeetCode/Equal Row and Column Pairs.md",
-    "Remote/Interview/Data Structures/Tuples.md",
-    "Remote/Interview/LC Questions/Python Tricks.md",
-    "Remote/Interview/Data Structures/Dictionary.md",
-    "Remote/Life/School Finances.md",
     "Remote/Tech Interview/LeetCode",
-    "Remote/CS/Happy Kiln.md",
-    "Remote/CS/Next.js.md",
-    "Remote/CS/Next.js/Next.js.md",
-    "Remote/CS/Next.js/Navigation.md",
-    "Remote/CS/Next.js/Routes.md",
-    "Remote/Internship/Epic Games - Gameplay Programmer Intern, Morrisville, NC.md",
-    "Remote/Internship/Epic Games - Software Engineer Intern.md",
-    "Remote/Internship/Gusto - SWE Summer 25.md",
-    "Remote/Internship/COMMSCOPE - SWE.md",
-    "Remote/Internship/Pavilion - SWE.md",
     "Remote/Assets/Attachments/Hair-20241228234932475.webp",
     "Remote/Tech Interview/Data Structures",
-    "Remote/Tech Interview",
-    "Remote/Interview/Algorithms/LevelOrderTraversal.py",
-    "Remote/Interview/Algorithms/LevelOrderTraversal.py~",
     "Remote/Assets/Attachments/Mastering the SWE Interview-20241216000133019.webp",
     "Remote/Assets/Attachments/Linear Algebra-20241210170637101.webp",
     "Remote/Assets/Attachments/CPP-20241202140521175.webp",

@@ -9,12 +9,7 @@ windows:
       panes:
         - nvim 1.md
         - nvim 2.md
-  - 🗓️:  
-      layout: even-horizontal
-      panes:
-        - nvim cal1.md
-        - nvim cal2.md
-
+        - nvim 3.md
 
 # Optional tmux socket
 # socket_name: foo
