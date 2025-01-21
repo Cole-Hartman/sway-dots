@@ -10,7 +10,6 @@ windows:
         - nvim 1.md
         - nvim 2.md
         - nvim 3.md
-        - nvim 4.md
   - 🗓️:  
       layout: even-horizontal
       panes:

@@ -33,7 +33,7 @@ alias ta='tmux attach -t'
 alias tl='tmux ls'
 alias tka='tmux kill-server'
 alias tk='tmux kill-session -t'
-alias td='tmuxinator todo-break'
+alias td='tmuxinator todo-school'
 
 alias m='unimatrix -s 92 -c white -a'
 alias bonsai='cbonsai -l'

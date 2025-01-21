@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ac2f2890cd653eb7",
+        "id": "29504c4a413f14ce",
         "type": "tabs",
         "children": [
           {
-            "id": "51a38310406b24a6",
+            "id": "fd9de583ec81d5dd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -36,6 +40,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Remote/Interview/GitHub Interview.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -120,7 +125,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of GitHub Interview"
             }
           },
           {
@@ -264,36 +269,36 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "51a38310406b24a6",
+  "active": "fd9de583ec81d5dd",
   "lastOpenFiles": [
-    "Remote/Interview/Mastering the SWE Interview.md",
+    "Untitled.md",
+    "Remote/Internship/Google 2.md",
+    "Remote/Internship/Google.md",
     "Remote/Interview/GitHub Interview.md",
-    "Remote/CS/SWE Terminology.md",
-    "Remote/Internship/GitHub - SWE.md",
-    "Remote/Interview/Interview.md",
-    "Remote/Internship/InterSystems - Summer Internship 2025, Boston, MA.md",
-    "Remote/Templates/(TEMP) LEETCODE.md",
-    "Remote/Interview/Why LeetCode.md",
-    "Remote/Interview/How To LeetCode.md",
-    "Remote/Interview/Time and Space Complexity.md",
-    "Remote/Internship/Pinterest - IT Software Engineering Intern - Remote.md",
-    "Remote/Interview/LC Templates/LC Templates.md",
-    "Remote/Interview/LC Templates/LevelOrderTraversal.py",
-    "Remote/Interview/Algorithms/ALG.md",
+    "Remote/Interview/GitHub CSV Question (CSV Module).md",
+    "Remote/Interview/GitHub Mock Behavioral.md",
+    "Remote/Interview/Interview Notes.md",
+    "Remote/Interview/GitHub STAR.md",
+    "interview note.md",
+    "Remote/Interview/GitHub STAR Answers.md",
+    "Remote/Interview/GitHub CSV Question (no modules).md",
+    "Remote/Interview/GitHub CSV Question SQL.md",
+    "Remote/Interview/GitHub Other.md",
+    "Remote/Interview/CSV file management.md",
+    "Remote/Internship/Toast - Software Engineer Intern Summer 2025 - Boston, MA.md",
+    "github sta and.md",
+    "Remote/Internship/Geico - Software Development Intern.md",
+    "Remote/Internship/Uber - 2025 Software Engineer Internship - Seattle, SF, Sunnyvale.md",
+    "Remote/Internship/Uber - 2025 Software Engineering Internship (United States).md",
+    "Remote/Internship/Datadog - Software Engineer - Intern, SRE - NY.md",
+    "Remote/Internship/Datadog - Software Engineer Intern, New York, NY, Boston, MA.md",
+    "Remote/Interview/Data Structures/Heaps.md",
+    "Remote/Interview/Data Structures/Queue.md",
     "Remote/Interview/Data Structures/DS.md",
-    "Remote/Interview/LC Questions/LeetCode.md",
-    "Remote/Interview/System Design/SysDes.md",
-    "Remote/Interview/Python Tricks.md",
-    "Remote/LeetCode/LeetCode.md",
+    "Remote/Interview/Data Structures/Dictionary.md",
+    "Remote/Interview/Data Structures/Tuples.md",
+    "Remote/Interview/LC Templates/LevelOrderTraversal.py",
     "Remote/LeetCode",
-    "Remote/Interview/LeetCode.md",
-    "Remote/Interview/LC Questions/Number of Islands.md",
-    "Remote/Interview/LC Questions/231. Power of Two.md",
-    "Remote/Interview/LC Questions/230. Kth Smallest Element in a BST.md",
-    "Remote/Templates/(TEMP) INTERNSHIP.md",
-    "Remote/Interview/LC Questions/testproblem50.md",
-    "Remote/Interview/Data Structures/Tries.md",
-    "Remote/Interview/LC Questions/Equal Row and Column Pairs.md",
     "Remote/Interview/LC Templates/DfsMatrix.py",
     "Remote/Interview/Algorithms/LevelOrderTraversal.py",
     "Remote/Interview/LC Templates/DfsMatrix.py~",
