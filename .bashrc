@@ -95,3 +95,5 @@ export NVM_DIR="$HOME/.nvm"
 
 # Shopify Hydrogen alias to local projects
 alias h2='$(npm prefix -s)/node_modules/.bin/shopify hydrogen'
+
+[ -f "/home/akira/.ghcup/env" ] && . "/home/akira/.ghcup/env" # ghcup-env

@@ -231,15 +231,15 @@ bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 bindsym Print exec grim
 
 # Swayidle configuration
-# swaylock after 10 minutes
-# turn off display after 15 minutes
+# swaylock after 15 minutes
+# turn off display after 20 minutes
 # turns display back on when activitiy is detected
 # locks screen before system sleeps
-# exec swayidle \
-#     timeout 600 'swaylock -f' \
-#     timeout 900 'swaymsg "output * dpms off"' \
-#     resume 'swaymsg "output * dpms on"' \
-#     before-sleep 'swaylock -f'
+exec swayidle \
+    timeout 900 'swaylock -f' \
+    timeout 1200 'swaymsg "output * dpms off"' \
+    resume 'swaymsg "output * dpms on"' \
+    before-sleep 'swaylock -f'
 
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 

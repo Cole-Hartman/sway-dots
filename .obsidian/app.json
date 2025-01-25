@@ -8,7 +8,7 @@
   "readableLineLength": false,
   "showInlineTitle": false,
   "showRibbon": false,
-  "spellcheck": true,
+  "spellcheck": false,
   "showUnsupportedFiles": true,
   "showLineNumber": false,
   "rightToLeft": false

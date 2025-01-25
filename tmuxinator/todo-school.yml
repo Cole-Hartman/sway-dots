@@ -10,16 +10,16 @@ windows:
         - nvim 1.md
         - nvim 2.md
         - nvim 3.md
+  - MISC:  
+      layout: even-horizontal
+      panes:
+        - nvim 4.md
+        - nvim 5.md
   - 🗓️:  
       layout: even-horizontal
       panes:
         - nvim cal1.md
         - nvim cal2.md
-  - MISC:  
-      layout: even-horizontal
-      panes:
-        - nvim 5.md
-        - nvim 6.md
 
 
 # Optional tmux socket
