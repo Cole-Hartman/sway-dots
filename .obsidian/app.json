@@ -7,8 +7,7 @@
   "defaultViewMode": "source",
   "readableLineLength": false,
   "showInlineTitle": false,
-  "showRibbon": false,
-  "spellcheck": false,
+  "spellcheck": true,
   "showUnsupportedFiles": true,
   "showLineNumber": false,
   "rightToLeft": false

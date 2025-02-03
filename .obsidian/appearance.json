@@ -12,8 +12,10 @@
     "custom-background",
     "obsidian",
     "floating-search-bar",
-    "video-size"
+    "video-size",
+    "latex-size"
   ],
   "nativeMenus": false,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "showRibbon": false
 }

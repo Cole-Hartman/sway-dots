@@ -124,6 +124,7 @@ bindsym $mod+d exec ~/.config/rofi/launchers/type-2/launcher.sh
 
 # Start firefox
 bindsym $mod+Shift+F exec firefox
+bindsym $mod+Shift+D exec firefox -new-window https://discord.com/channels/@me
 
 # Reload config
 bindsym $mod+Shift+c reload
