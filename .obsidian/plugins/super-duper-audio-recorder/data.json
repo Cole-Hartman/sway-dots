@@ -5,7 +5,7 @@
   "startStopHotkey": "",
   "pauseHotkey": "",
   "resumeHotkey": "",
-  "audioDeviceId": "602a59c63e10676ef79963bdac4d16143ae7edc0dcb1afca050ea31d98edf695",
+  "audioDeviceId": "default",
   "sampleRate": 44100,
   "bitrate": 128000,
   "enableMultiTrack": false,
