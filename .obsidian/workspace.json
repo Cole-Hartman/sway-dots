@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "827e5a11498a6384",
+        "id": "098cc8a58dad4a91",
         "type": "tabs",
         "children": [
           {
-            "id": "e5e80b528fee1ec0",
+            "id": "f6415bc7cb922e6b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Remote/Class/Database/Database.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Database"
-            }
-          },
-          {
-            "id": "9e4f560f20f67b0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Remote/Class/Database/8. Beanie Basic.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "8. Beanie Basic"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -283,35 +264,44 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "9e4f560f20f67b0c",
+  "active": "f6415bc7cb922e6b",
   "lastOpenFiles": [
-    "Remote/Class/Database/software.md",
-    "Remote/Class/Database/8. Beanie Basic.md",
-    "Remote/Class/Database/Database.md",
-    "Remote/Internship/MongoDB - Software Engineering, Product - Intern - 2025, New York, NY.md",
-    "Remote/Class/Database/3. Functional Dependencies Cover.md",
-    "Remote/Class/Database/6. Document Based Implementation.md",
-    "Remote/Class/Database/5. Relational Implementation.md",
-    "Remote/Internship/GoFundMe - SWE - SF.md",
-    "Remote/Class/Operating Systems/2. Processes & Threads.md",
-    "Remote/Assets/Attachments/2. Processes & Threads-20250215123118905.webp",
-    "Remote/Class/Operating Systems/os.md",
-    "Remote/Interview/Python Tricks.md",
-    "Remote/Class/Ethics in CS/Ethics in CS.md",
-    "Remote/Class/Ethics in CS/The Right To Repair.md",
-    "Remote/Class/CS Theory/CS Theory.md",
-    "Remote/Class/Grading & Info.md",
     "Remote/CS/GIT.md",
-    "Remote/Internship/Tesla.md",
-    "Remote/Class/Database/7. SQLAlchemy Basic.md",
-    "Remote/CS/Hardware/cpu.md",
-    "Remote/Class/Operating Systems/1. Introduction.md",
-    "Remote/Internship/Motorola - Google Applications Developer Internship (Summer 2025), New York, US Offsite.md",
+    "Remote/Sway.md",
+    "Remote/Class/CS Theory/CS Theory.md",
+    "Remote/Class/Haskell/Haskell.md",
+    "Remote/Class/Haskell/Session 1.md",
+    "Remote/Class/Haskell/Session 2.md",
+    "Remote/Class/Haskell/Session 3.md",
+    "Remote/Class/Haskell/Session3.md",
+    "Remote/Class/Ethics in CS/Types of Privacy.md",
+    "Remote/Assets/Attachments/Types of Privacy-20250225134529976.webp",
+    "Remote/Class/Ethics in CS/Ethics in CS.md",
+    "Remote/Class/Database/Database.md",
+    "Remote/Internship/GitHub - SWE.md",
+    "Remote/CS/Linux Commands.md",
     "Remote/Class/Principles/Principles.md",
-    "Remote/Interview/Algorithms/ALG.md",
+    "Remote/Class/Haskell/Principles.md",
+    "Remote/Class/Haskell",
+    "Remote/Class/Database/Beanie.md",
+    "Remote/Class/Operating Systems/4. Deadlocks.md",
+    "Remote/Class/Grading & Info.md",
+    "Remote/Class/Operating Systems/os.md",
     "Remote/Class/Operating Systems/3. Synchronization.md",
-    "Remote/CS/Java Script/Classes.md",
-    "Remote/CS/Hardware/os.md",
+    "Remote/Class/Database/Relationships.md",
+    "Remote/Class/Database/Functional Dependencies Cover.md",
+    "Remote/Assets/Attachments/Relationships-20250224095647920.webp",
+    "Remote/Assets/Attachments/Relationships-20250224095614363.webp",
+    "Remote/Assets/Attachments/Relationships-20250224095451599.webp",
+    "Remote/Assets/Attachments/Relationships-20250224095419210.webp",
+    "Remote/Class/Database/Sample Midterm.md",
+    "Remote/Class/Database/Midterm Study.md",
+    "Remote/Class/Database/Keys & Constraints.md",
+    "Remote/Class/Database/Good Definitions.md",
+    "Remote/Class/Database/Draw.io",
+    "Remote/Assets/Attachments/2. Processes & Threads-20250218124650224.webp",
+    "Remote/Assets/Attachments/2. Processes & Threads-20250218124535835.webp",
+    "Remote/Assets/Attachments/2. Processes & Threads-20250215123118905.webp",
     "Remote/CS/Hardware",
     "Remote/Math",
     "Remote/Assets/Recordings/recording-multitrack-2025-02-06T00-37-12-316Z.wav",
@@ -320,18 +310,9 @@
     "Remote/Interview/LC Templates/DfsMatrix.py",
     "Remote/Interview/LC Templates/BfsMatrix.py~",
     "Remote/Interview/LC Templates/BfsGraph.py",
-    "Remote/Interview/LC Templates/BfsMatrix.py",
-    "Remote/Class/Principles",
     "Remote/Assets/Attachments/Hair-20241228234932475.webp",
     "Remote/Assets/Attachments/Mastering the SWE Interview-20241216000133019.webp",
-    "Remote/Assets/Attachments/Linear Algebra-20241210170637101.webp",
-    "Remote/Assets/Attachments/CPP-20241202140521175.webp",
-    "Remote/Assets/Attachments/LRU Cache-20241201125341761.webp",
-    "Remote/Assets/Attachments/Find the Duplicate Number -20241129161403685.webp",
-    "Remote/Assets/Attachments/IMG_0496.jpeg",
     "Untitled.canvas",
-    "Remote/Assets/Attachments/23NIKALBRN21CNCHLMNK_White_Black_Photon_Dust.webp",
-    "Remote/Assets/Attachments/Search a 2D Matrix-20241122192837646.webp",
     "CANVAS/FLOWCHART.canvas",
     "Remote/CANVAS/Old Canvas.canvas",
     "Remote/CANVAS/LEETCODE.canvas",

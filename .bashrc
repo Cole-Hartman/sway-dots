@@ -38,6 +38,7 @@ alias td='tmuxinator todo-school'
 alias m='unimatrix -s 92 -c white -a'
 alias bonsai='cbonsai -l'
 alias fzfs='~/scripts/fzf.sh'
+alias fzfs-all='~/scripts/fzf-all.sh'
 alias tt='tt -theme nord'
 alias pdf='zathura'
 alias timeshift='sudogui timeshift-gtk'
@@ -72,6 +73,7 @@ export CLIPBOARD='wl-copy'
 
 # fzf
 bind '"\C-f":"fzfs\n"'
+bind '"\C-g":"fzfs-all\n"'
 
 # nvm
 source /usr/share/nvm/init-nvm.sh
